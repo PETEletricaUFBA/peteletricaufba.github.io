@@ -52,9 +52,10 @@ const About = () => (
                         <p>Poderão inscrever-se alunas e alunos do curso de Engenharia Elétrica da UFBA que atenderem aos seguintes pré-requisitos:</p>
                         <ol>
                             <li>Ser aluno do curso de Engenharia Elétrica semestralizado entre o 2º e o 6º semestre;</li>
-                            <li>Apresentar bom rendimento acadêmico (Média aritmética de todos componentes cursados maior ou igual a 5.0);</li>
+                            <li>Apresentar Coeficiente de Rendimento (CR) ≥ 5,0;</li>
                             <li>Ser brasileiro nato ou naturalizado;</li>
-                            <li>Ter disponibilidade para dedicar 20 (vinte) horas semanais ao programa;</li>
+                            <li>Ter disponibilidade para dedicar 20 (vinte) horas semanais ao programa, 
+                            participando com empenho e dedicação em todas as suas atividades; </li>
                             <li>Não ser bolsista de qualquer outro programa que impeça o acúmulo de bolsas.</li>
                         </ol>
                         <p></p>

@@ -248,7 +248,6 @@ const Prosel = () => (
           <p className="mb-4">
             Confira as informações de como funciona o nosso processo seletivo.
           </p>
-
           <Link href="/prosel" passHref>
             <a title="Processo Seletivo" className="btn btn-primary">
               Processo Seletivo
