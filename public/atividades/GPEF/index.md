@@ -13,6 +13,56 @@ status: "ON"
 <!--Botão para voltar para a página anterior-->
 <a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
 
+### <span style="color:#001D7E;" class="blink-animation"><i><u>LANÇAMENTO</i></u></span>
+
+<style>
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink-animation {
+    display: inline-block;
+    animation: blink 1s step-start infinite;
+}
+</style>
+
+<br>
+
+## <span style="color:#E5989B;">📖 Mulheres da Escola Politécnica</span>
+
+<p style="color: #333; text-align: justify;">
+  Estamos entusiasmadas em anunciar o lançamento do Ebook <strong>Mulheres da Escola Politécnica</strong>, uma obra que reúne experiências, desafios e conquistas de mulheres na área de engenharia. Este livro foi produzido com a colaboração de estudantes e profissionais da Escola Politécnica da UFBA, trazendo relatos inspiradores e análises sobre a presença feminina em um campo predominantemente masculino.
+</p>
+
+<p style="color: #333; text-align: justify;">
+  O livro estará disponível para download gratuito em formato digital através das plataformas oficiais do PET Elétrica UFBA. Não perca essa oportunidade de se inspirar e fortalecer a rede de apoio entre mulheres na engenharia!
+</p>
+<br>
+
+<!-- Visualização integrada -->
+<div style="text-align: center; margin-top: 20px;">
+<!---
+  <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf#toolbar=0" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </iframe>
+--->
+  <iframe src="https://musical-guacamole-vxjrr7vpwj4fp6v5-3000.app.github.dev/docs/livros/Mulheres%20da%20Escola%20Politecnica%20da%20UFBA.pdf" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </iframe>
+</div>
+<br>
+<!-- Botão para download -->
+<div style="text-align: center; margin-top: 20px;">
+  <a href="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf" download style="background-color: #001D7E; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 18px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    📥 Baixar o Livro
+  </a>
+</div>
+
+<br><br>
+
 <!--  o conterúdo começa a partir daqui -->
 <p style="color: #333;">
   Grupo de Pesquisa em Empoderamento Feminino - GPEF desenvolve-se como um grupo
