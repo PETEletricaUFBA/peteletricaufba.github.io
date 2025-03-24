@@ -50,7 +50,7 @@ status: "ON"
   <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf#toolbar=0" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </iframe>
 --->
-  <iframe src="https://musical-guacamole-vxjrr7vpwj4fp6v5-3000.app.github.dev/docs/livros/Mulheres%20da%20Escola%20Politecnica%20da%20UFBA.pdf" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </iframe>
 </div>
 <br>
