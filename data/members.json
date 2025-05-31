@@ -35,21 +35,21 @@
             }
         ]
     },
-    "daniloFigueiredo": {
-        "name": "Danilo Figueiredo",
-        "active": false,
-        "image": "/images/team/daniloFigueiredo.jpg",
+    "brenocosta": {
+        "name": "Breno Costa",
+        "active": true,
+        "image": "/images/team/athilaSantos.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2024",
+            "UFBA": "2022.1",
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:danilo.francisco@ufba.br"
+                "link": "mailto:brenocosta@ufba.br    "
             }
         ]
     },
@@ -68,82 +68,6 @@
             {
                 "name": "email",
                 "link": "mailto:ericksampaio@ufba.br"
-            }
-        ]
-    },
-    "fredericoSouza": {
-        "name": "Frederico Souza",
-        "active": false,
-        "image": "/images/team/fredericoSouza.png",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2018.1",
-            "joinPET": "2020",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:fredericopinheiro25@gmail.com"
-            }
-        ]
-    },
-    "gianlucaSouza": {
-        "name": "Gianluca Pêpe França",
-        "active": false,
-        "image": "/images/team/gianlucaSouza.jpg",
-        "bio": "Aos braços do passado dedico as minhas vitórias, fiz o melhor que pude. Fracassos do passado mudaram minha trajetória, busquei a plenitude.",
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.2",
-            "joinPET": "2023",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:gianlucasouza@outlook.com"
-            }
-        ]
-    },
-    "ilanaBarboza": {
-        "name": "Ilana Barboza",
-        "active": true,
-        "image": "/images/team/ilanaBarboza.jpg",
-        "bio": "“Sobre o nada tenho profundidades” - Manoel de Barros",
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:ilanabarboza@ufba.br"
-            }
-        ]
-    },
-    "jessicaAzevedo": {
-        "name": "Jéssica Azevedo",
-        "active": true,
-        "image": "/images/team/jessicaAzevedo.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.1",
-            "joinPET": "2022",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/j%C3%A9ssica-azevedo-a901941aa/"
-            },
-            {
-                "name": "email",
-                "link": "mailto:jeooliveira@outlook.com"
             }
         ]
     },
@@ -219,42 +143,6 @@
             }
         ]
     },
-    "mariaClara": {
-        "name": "Maria Clara Aguiar",
-        "active": true,
-        "image": "/images/team/mariaclaraAguiar.png",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:m.aguiar@ufba.br"
-            }
-        ]
-    },
-    "pedroNogueira": {
-        "name": "Pedro Nogueira",
-        "active": true,
-        "image": "/images/team/pedroNogueira.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.1",
-            "joinPET": "2022",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:peu.andrade@hotmail.com"
-            }
-        ]
-    },
     "rebecaCardoso": {
         "name": "Rebeca Cardoso",
         "active": true,
@@ -291,6 +179,158 @@
             }
         ]
     },
+     "maiconDeivid": {
+        "name": "Maicon Deivid Pereira",
+        "active": true,
+        "image": "/images/team/maiconDeivid.jpg",
+        "bio": "Tutor do grupo PET-Elétrica, possui graduação (2006), mestrado (2009) e doutorado (2017) em Engenharia Elétrica pela Universidade Federal de Santa Catarina - UFSC. Trabalhou no Centro de Tecnologia da Informação Renato Archer como projetista de circuitos integrados analógicos e de radiofrequência entre 2009 e 2012. Desde 2018 é Professor Adjunto no Departamento de Engenharia Elétrica e de Computação da Universidade Federal da Bahia, contribuindo com pesquisas no Laboratório de Concepção de Circuitos Integrados. Tem experiência com circuitos eletrônicos integrados analógicos, mistos e de radiofrequência, além de caracterização e modelagem de canal para sistemas de comunicação sem fio. Tem interesse em projeto e teste de arquiteturas para circuitos e sistemas de comunicação de baixo consumo, em métodos alternativos de comunicação para redes sem fio e em técnicas de caracterização e modelagem de canal.",
+        "signature": null,
+        "dates": {
+            "UFBA": null,
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:maicon.deivid@ufba.br"
+            },
+            {
+                "name": "CV",
+                "link": "http://lattes.cnpq.br/2479925820855121"
+            }
+        ]
+    },
+    "ilanaBarboza": {
+        "name": "Ilana Barboza",
+        "active": false,
+        "image": "/images/team/ilanaBarboza.jpg",
+        "bio": "“Sobre o nada tenho profundidades” - Manoel de Barros",
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:ilanabarboza@ufba.br"
+            }
+        ]
+    },
+    "fredericoSouza": {
+        "name": "Frederico Souza",
+        "active": false,
+        "image": "/images/team/fredericoSouza.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2018.1",
+            "joinPET": "2020",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:fredericopinheiro25@gmail.com"
+            }
+        ]
+    },
+    "gianlucaSouza": {
+        "name": "Gianluca Pêpe França",
+        "active": false,
+        "image": "/images/team/gianlucaSouza.jpg",
+        "bio": "Aos braços do passado dedico as minhas vitórias, fiz o melhor que pude. Fracassos do passado mudaram minha trajetória, busquei a plenitude.",
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:gianlucasouza@outlook.com"
+            }
+        ]
+    },
+    "mariaClara": {
+        "name": "Maria Clara Aguiar",
+        "active": false,
+        "image": "/images/team/mariaclaraAguiar.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:m.aguiar@ufba.br"
+            }
+        ]
+    },
+    "jessicaAzevedo": {
+        "name": "Jéssica Azevedo",
+        "active": false,
+        "image": "/images/team/jessicaAzevedo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2022",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/j%C3%A9ssica-azevedo-a901941aa/"
+            },
+            {
+                "name": "email",
+                "link": "mailto:jeooliveira@outlook.com"
+            }
+        ]
+    },
+    "pedroNogueira": {
+        "name": "Pedro Nogueira",
+        "active": false,
+        "image": "/images/team/pedroNogueira.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2022",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:peu.andrade@hotmail.com"
+            }
+        ]
+    },
+    "daniloFigueiredo": {
+        "name": "Danilo Figueiredo",
+        "active": false,
+        "image": "/images/team/daniloFigueiredo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:danilo.francisco@ufba.br"
+            }
+        ]
+    },
     "tiscileCabral": {
         "name": "Tíscile Cabral",
         "active": false,
@@ -324,28 +364,6 @@
             {
                 "name": "email",
                 "link": "mailto:yure.carneiro.oliveira@gmail.com"
-            }
-        ]
-    },
-    "maiconDeivid": {
-        "name": "Maicon Deivid Pereira",
-        "active": true,
-        "image": "/images/team/maiconDeivid.jpg",
-        "bio": "Tutor do grupo PET-Elétrica, possui graduação (2006), mestrado (2009) e doutorado (2017) em Engenharia Elétrica pela Universidade Federal de Santa Catarina - UFSC. Trabalhou no Centro de Tecnologia da Informação Renato Archer como projetista de circuitos integrados analógicos e de radiofrequência entre 2009 e 2012. Desde 2018 é Professor Adjunto no Departamento de Engenharia Elétrica e de Computação da Universidade Federal da Bahia, contribuindo com pesquisas no Laboratório de Concepção de Circuitos Integrados. Tem experiência com circuitos eletrônicos integrados analógicos, mistos e de radiofrequência, além de caracterização e modelagem de canal para sistemas de comunicação sem fio. Tem interesse em projeto e teste de arquiteturas para circuitos e sistemas de comunicação de baixo consumo, em métodos alternativos de comunicação para redes sem fio e em técnicas de caracterização e modelagem de canal.",
-        "signature": null,
-        "dates": {
-            "UFBA": null,
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:maicon.deivid@ufba.br"
-            },
-            {
-                "name": "CV",
-                "link": "http://lattes.cnpq.br/2479925820855121"
             }
         ]
     },

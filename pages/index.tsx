@@ -2,6 +2,8 @@ import Image from '../lib/Image'
 import { useState } from "react";
 import Link from 'next/link';
 
+import { useEffect, useRef } from "react";
+
 import HomeConf from '../data/home.json'
 import { getSortedPostsData } from '../lib/posts';
 import Layout from '../components/layout';
@@ -30,14 +32,13 @@ export default function Home({ allPostsData }: {
 }) {
   return (
     <Layout>
-
+       <Carrossel /> {/* ⬅️ Aqui o carrossel aparece no topo */}
       <Banner />
       <CorrenteAlternativa featuredPost={allPostsData[0]} />
       <Triade />
       <LivroPET15Anos />
       <Depoimentos />
       <Prosel />
-
     </Layout>
   )
 }
@@ -258,3 +259,139 @@ const Prosel = () => (
     </div>
   </section>
 );
+
+const Carrossel = () => {
+  const slides = [
+    {
+      id: 1,
+      src: "/images/carrossel/slide1.jpeg",
+      alt: "Imagem 1",
+      caption: "Bem-vindo ao PET Elétrica UFBA!",
+    },
+    {
+      id: 2,
+      src: "/images/carrossel/slide2.png",
+      alt: "Imagem 2",
+      caption: "Ensino, Pesquisa e Extensão",
+    },
+    {
+      id: 3,
+      src: "/images/carrossel/slide3.jpg",
+      alt: "Imagem 3",
+      caption: "15 anos de história",
+    },
+  ];
+
+  const indexRef = useRef(0);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    startAutoSlide();
+    return () => clearInterval(intervalRef.current);
+  }, []);
+
+  const startAutoSlide = () => {
+    intervalRef.current = setInterval(() => {
+      goToSlide((indexRef.current + 1) % slides.length);
+    }, 4000); // muda a cada 4 segundos
+  };
+
+  const goToSlide = (index) => {
+    const items = document.querySelectorAll(".slide");
+    items.forEach((item, i) => {
+      item.style.display = i === index ? "block" : "none";
+    });
+    indexRef.current = index;
+  };
+
+  const handlePrev = () => {
+    const newIndex = (indexRef.current - 1 + slides.length) % slides.length;
+    goToSlide(newIndex);
+  };
+
+  const handleNext = () => {
+    const newIndex = (indexRef.current + 1) % slides.length;
+    goToSlide(newIndex);
+  };
+
+  return (
+    <section style={{ position: "relative", width: "80%", height: "50vh", overflow: "hidden", marginBottom: "2rem" }}>
+      {slides.map((slide, index) => (
+        <div
+          key={slide.id}
+          className="slide"
+          style={{
+            position: "relative",
+            width: "80%",
+            height: "50vh",
+            overflow: "hidden",
+            margin: "0 auto 2rem auto", // <-- centraliza horizontalmente
+            display: "flex",
+            justifyContent: "center",  // centraliza horizontalmente
+            alignItems: "center",      // centraliza verticalmente
+          }}
+        >
+          <img
+            src={slide.src}
+            alt={slide.alt}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              bottom: "10%",
+              left: "50%",
+              transform: "translateX(-50%)",
+              backgroundColor: "rgba(0,0,0,0.6)",
+              color: "#fff",
+              padding: "10px 20px",
+              borderRadius: "10px",
+              fontSize: "1.2rem",
+            }}
+          >
+            {slide.caption}
+          </div>
+        </div>
+      ))}
+
+      {/* Botões */}
+      <button
+        onClick={handlePrev}
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "10px",
+          transform: "translateY(-50%)",
+          background: "rgba(0,0,0,0.5)",
+          color: "#fff",
+          border: "none",
+          borderRadius: "50%",
+          width: "40px",
+          height: "40px",
+          cursor: "pointer",
+        }}
+      >
+        &#10094;
+      </button>
+      <button
+        onClick={handleNext}
+        style={{
+          position: "absolute",
+          top: "50%",
+          right: "10px",
+          transform: "translateY(-50%)",
+          background: "rgba(0,0,0,0.5)",
+          color: "#fff",
+          border: "none",
+          borderRadius: "50%",
+          width: "40px",
+          height: "40px",
+          cursor: "pointer",
+        }}
+      >
+        &#10095;
+      </button>
+    </section>
+  );
+};
+
