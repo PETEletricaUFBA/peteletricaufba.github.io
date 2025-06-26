@@ -1,5 +1,59 @@
 {
-    "anaClara": {
+    "Membro_A": {
+        "name": "NOME_DO_MEMBRO",
+        "active": true,
+        "image": "/images/team/AAA_membro_novo.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",       
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
+            }
+        ]
+    },
+    "Membro_AB": {
+        "name": "NOME_DO_MEMBRO",
+        "active": true,
+        "image": "/images/team/AAA_membro_novo.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",       
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
+            }
+        ]
+    },
+    "Membro_AC": {
+        "name": "NOME_DO_MEMBRO",
+        "active": true,
+        "image": "/images/team/AAA_membro_novo.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",       
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
+            }
+        ]
+    },
+    "AnaClara": {
         "name": "Ana Clara Coutinho",
         "active": true,
         "image": "/images/team/anaClara.jpg",
