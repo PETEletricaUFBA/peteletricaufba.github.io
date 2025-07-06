@@ -1,5 +1,27 @@
-{
-    "anaClara": {
+{ 
+    "alannasilva": {
+        "name": "Alanna Silva",
+        "active": true,
+        "image": "/images/team/alannasilva.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.1",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
+            }
+        ]
+    },
+    
+    
+    
+    
+    "AnaClara": {
         "name": "Ana Clara Coutinho",
         "active": true,
         "image": "/images/team/anaClara.jpg",
@@ -35,21 +57,21 @@
             }
         ]
     },
-    "daniloFigueiredo": {
-        "name": "Danilo Figueiredo",
-        "active": false,
-        "image": "/images/team/daniloFigueiredo.jpg",
+    "brenocosta": {
+        "name": "Breno Costa",
+        "active": true,
+        "image": "/images/team/brenocosta.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2024",
+            "UFBA": "2023.2",       
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:danilo.francisco@ufba.br"
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
@@ -71,79 +93,58 @@
             }
         ]
     },
-    "fredericoSouza": {
-        "name": "Frederico Souza",
-        "active": false,
-        "image": "/images/team/fredericoSouza.png",
+    "gabrielazevedo": {
+        "name": "Gabriel Azevedo",
+        "active": true,
+        "image": "/images/team/AAA_membro_novo.png",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2018.1",
-            "joinPET": "2020",
+            "UFBA": "2024.1",       
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:fredericopinheiro25@gmail.com"
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
-    "gianlucaSouza": {
-        "name": "Gianluca Pêpe França",
-        "active": false,
-        "image": "/images/team/gianlucaSouza.jpg",
-        "bio": "Aos braços do passado dedico as minhas vitórias, fiz o melhor que pude. Fracassos do passado mudaram minha trajetória, busquei a plenitude.",
+     
+    "karineSilva": {
+        "name": "Karine Silva",
+        "active": true,
+        "image": "/images/team/karineSilva.jpg",
+        "bio": "Viva intensamente",
         "signature": null,
         "dates": {
             "UFBA": "2022.2",
-            "joinPET": "2023",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:gianlucasouza@outlook.com"
-            }
-        ]
-    },
-    "ilanaBarboza": {
-        "name": "Ilana Barboza",
-        "active": true,
-        "image": "/images/team/ilanaBarboza.jpg",
-        "bio": "“Sobre o nada tenho profundidades” - Manoel de Barros",
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.2",
             "joinPET": "2024",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:ilanabarboza@ufba.br"
+                "link": "mailto:karinesilvasm@gmail.com"
             }
         ]
     },
-    "jessicaAzevedo": {
-        "name": "Jéssica Azevedo",
+    "lucassantos": {
+        "name": "Lucas Santos",
         "active": true,
-        "image": "/images/team/jessicaAzevedo.jpg",
+        "image": "/images/team/lucassantos.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2022.1",
-            "joinPET": "2022",
+            "UFBA": "2024.2",       
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/in/j%C3%A9ssica-azevedo-a901941aa/"
-            },
-            {
                 "name": "email",
-                "link": "mailto:jeooliveira@outlook.com"
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
@@ -162,24 +163,6 @@
             {
                 "name": "email",
                 "link": "mailto:lucianapereira@ufba.br"
-            }
-        ]
-    },
-    "karineSilva": {
-        "name": "Karine Silva",
-        "active": true,
-        "image": "/images/team/karineSilva.jpg",
-        "bio": "Viva intensamente",
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:karinesilvasm@gmail.com"
             }
         ]
     },
@@ -219,42 +202,43 @@
             }
         ]
     },
-    "mariaClara": {
-        "name": "Maria Clara Aguiar",
+    "paulosantana": {
+        "name": "Paulo Santana",
         "active": true,
-        "image": "/images/team/mariaclaraAguiar.png",
+        "image": "/images/team/paulosantana.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2024",
+            "UFBA": "2021.2",       
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:m.aguiar@ufba.br"
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
-    "pedroNogueira": {
-        "name": "Pedro Nogueira",
+    "raulsantos": {
+        "name": "Raul Santos",
         "active": true,
-        "image": "/images/team/pedroNogueira.jpg",
+        "image": "/images/team/raulsantos.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2022.1",
-            "joinPET": "2022",
+            "UFBA": "2024.1",       
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:peu.andrade@hotmail.com"
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
+   
     "rebecaCardoso": {
         "name": "Rebeca Cardoso",
         "active": true,
@@ -291,6 +275,137 @@
             }
         ]
     },
+ "pedroNogueira": {
+        "name": "Pedro Nogueira",
+        "active": false,
+        "image": "/images/team/pedroNogueira.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2022",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:peu.andrade@hotmail.com"
+            }
+        ]
+    },
+    "jessicaAzevedo": {
+        "name": "Jéssica Azevedo",
+        "active": false,
+        "image": "/images/team/jessicaAzevedo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2022",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/in/j%C3%A9ssica-azevedo-a901941aa/"
+            },
+            {
+                "name": "email",
+                "link": "mailto:jeooliveira@outlook.com"
+            }
+        ]
+    },
+    "mariaClara": {
+        "name": "Maria Clara Aguiar",
+        "active": false,
+        "image": "/images/team/mariaclaraAguiar.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:m.aguiar@ufba.br"
+            }
+        ]
+    },
+     "ilanaBarboza": {
+        "name": "Ilana Barboza",
+        "active": false,
+        "image": "/images/team/ilanaBarboza.jpg",
+        "bio": "“Sobre o nada tenho profundidades” - Manoel de Barros",
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:ilanabarboza@ufba.br"
+            }
+        ]
+    },
+    "fredericoSouza": {
+        "name": "Frederico Souza",
+        "active": false,
+        "image": "/images/team/fredericoSouza.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2018.1",
+            "joinPET": "2020",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:fredericopinheiro25@gmail.com"
+            }
+        ]
+    },
+    "daniloFigueiredo": {
+        "name": "Danilo Figueiredo",
+        "active": false,
+        "image": "/images/team/daniloFigueiredo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:danilo.francisco@ufba.br"
+            }
+        ]
+    },
+     "gianlucaSouza": {
+        "name": "Gianluca Pêpe França",
+        "active": false,
+        "image": "/images/team/gianlucaSouza.jpg",
+        "bio": "Aos braços do passado dedico as minhas vitórias, fiz o melhor que pude. Fracassos do passado mudaram minha trajetória, busquei a plenitude.",
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:gianlucasouza@outlook.com"
+            }
+        ]
+    },
+    
     "tiscileCabral": {
         "name": "Tíscile Cabral",
         "active": false,
