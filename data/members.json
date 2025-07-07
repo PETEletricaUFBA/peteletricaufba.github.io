@@ -13,7 +13,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:alannasilvafaculdade@gmail.com"
             }
         ]
     },
@@ -71,7 +71,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:brenoccs04@gmail.com"
             }
         ]
     },
@@ -94,20 +94,20 @@
         ]
     },
     "gabrielazevedo": {
-        "name": "Gabriel Azevedo",
+        "name": "Gabriel Araújo",
         "active": true,
-        "image": "/images/team/AAA_membro_novo.png",
+        "image": "/images/team/gabrielazevedo.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2024.1",       
+            "UFBA": "2023.1",       
             "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:gabrieldeazevedoarauj0@gmail.com"
             }
         ]
     },
@@ -144,7 +144,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:lucassgsz09@gmail.com"
             }
         ]
     },
@@ -216,7 +216,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:eupaulo.roberto@hotmail.com"
             }
         ]
     },
@@ -234,7 +234,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
+                "link": "mailto:raul.js.fla@gmail.com"
             }
         ]
     },
@@ -272,6 +272,28 @@
             {
                 "name": "email",
                 "link": "mailto:sarahlssss15@gmail.com"
+            }
+        ]
+    },
+    "maiconDeivid": {
+        "name": "Maicon Deivid Pereira",
+        "active": true,
+        "image": "/images/team/maiconDeivid.jpg",
+        "bio": "Tutor do grupo PET-Elétrica, possui graduação (2006), mestrado (2009) e doutorado (2017) em Engenharia Elétrica pela Universidade Federal de Santa Catarina - UFSC. Trabalhou no Centro de Tecnologia da Informação Renato Archer como projetista de circuitos integrados analógicos e de radiofrequência entre 2009 e 2012. Desde 2018 é Professor Adjunto no Departamento de Engenharia Elétrica e de Computação da Universidade Federal da Bahia, contribuindo com pesquisas no Laboratório de Concepção de Circuitos Integrados. Tem experiência com circuitos eletrônicos integrados analógicos, mistos e de radiofrequência, além de caracterização e modelagem de canal para sistemas de comunicação sem fio. Tem interesse em projeto e teste de arquiteturas para circuitos e sistemas de comunicação de baixo consumo, em métodos alternativos de comunicação para redes sem fio e em técnicas de caracterização e modelagem de canal.",
+        "signature": null,
+        "dates": {
+            "UFBA": 2018,
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:maicon.deivid@ufba.br"
+            },
+            {
+                "name": "CV",
+                "link": "http://lattes.cnpq.br/2479925820855121"
             }
         ]
     },
@@ -442,28 +464,7 @@
             }
         ]
     },
-    "maiconDeivid": {
-        "name": "Maicon Deivid Pereira",
-        "active": true,
-        "image": "/images/team/maiconDeivid.jpg",
-        "bio": "Tutor do grupo PET-Elétrica, possui graduação (2006), mestrado (2009) e doutorado (2017) em Engenharia Elétrica pela Universidade Federal de Santa Catarina - UFSC. Trabalhou no Centro de Tecnologia da Informação Renato Archer como projetista de circuitos integrados analógicos e de radiofrequência entre 2009 e 2012. Desde 2018 é Professor Adjunto no Departamento de Engenharia Elétrica e de Computação da Universidade Federal da Bahia, contribuindo com pesquisas no Laboratório de Concepção de Circuitos Integrados. Tem experiência com circuitos eletrônicos integrados analógicos, mistos e de radiofrequência, além de caracterização e modelagem de canal para sistemas de comunicação sem fio. Tem interesse em projeto e teste de arquiteturas para circuitos e sistemas de comunicação de baixo consumo, em métodos alternativos de comunicação para redes sem fio e em técnicas de caracterização e modelagem de canal.",
-        "signature": null,
-        "dates": {
-            "UFBA": null,
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:maicon.deivid@ufba.br"
-            },
-            {
-                "name": "CV",
-                "link": "http://lattes.cnpq.br/2479925820855121"
-            }
-        ]
-    },
+    
     "adranSouza": {
         "name": "Adran Souza",
         "active": false,
