@@ -14,30 +14,24 @@ const menu = [
   {
     name: "Atividades",
     link: "/atividades",
-  },
-  {
-    name: "Cursos",
-    link: "/cursos",
-  },
+  }
 ];
 
 function Header(): JSX.Element {
   const [active, setActive] = useState(false);
-  const [dropdownActive, setDropdownActive] = useState(false);
+  const [ensinoDropdownActive, setEnsinoDropdownActive] = useState(false);
+  const [sobreDropdownActive, setSobreDropdownActive] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
 
   const handleClick = () => {
     setActive(!active);
   };
 
-  const handleDropdownClick = () => {
-    setDropdownActive(!dropdownActive);
-  };
-
   const handleClickOutside = (event: MouseEvent) => {
     if (navRef.current && !navRef.current.contains(event.target as Node)) {
       setActive(false);
-      setDropdownActive(false);
+      setEnsinoDropdownActive(false);
+      setSobreDropdownActive(false);
     }
   };
 
@@ -50,7 +44,8 @@ function Header(): JSX.Element {
 
   const handleLinkClick = () => {
     setActive(false);
-    setDropdownActive(false);
+    setEnsinoDropdownActive(false);
+    setSobreDropdownActive(false);
   };
 
   return (
@@ -86,37 +81,72 @@ function Header(): JSX.Element {
                     </Link>
                   </li>
                 ))}
+
+                {/* Dropdown Ensino */}
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="navbarDropdown"
+                    id="navbarDropdownEnsino"
                     role="button"
-                    onClick={handleDropdownClick}
-                    aria-expanded={dropdownActive}
+                    onClick={() => {
+                      setEnsinoDropdownActive(!ensinoDropdownActive);
+                      setSobreDropdownActive(false);
+                    }}
+                    aria-expanded={ensinoDropdownActive}
+                  >
+                    Ensino
+                  </a>
+                  <ul className={`dropdown-menu ${ensinoDropdownActive ? 'show' : ''}`} aria-labelledby="navbarDropdownEnsino">
+                    <li>
+                      <Link href="/cursos" passHref>
+                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Videoaulas</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/manual-calouro" passHref>
+                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Manual do Calouro</a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+
+                {/* Dropdown Sobre nós */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownSobre"
+                    role="button"
+                    onClick={() => {
+                      setSobreDropdownActive(!sobreDropdownActive);
+                      setEnsinoDropdownActive(false);
+                    }}
+                    aria-expanded={sobreDropdownActive}
                   >
                     Sobre nós
                   </a>
-                  <ul className={`dropdown-menu ${dropdownActive ? 'show' : ''}`} aria-labelledby="navbarDropdown">
+                  <ul className={`dropdown-menu ${sobreDropdownActive ? 'show' : ''}`} aria-labelledby="navbarDropdownSobre">
                     <li>
                       <Link href="/downloads" passHref>
-                        <a className="dropdown-item text-center" onClick={() => setDropdownActive(false)}>Planejamentos</a>
+                        <a className="dropdown-item text-center" onClick={() => setSobreDropdownActive(false)}>Planejamentos</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/team" passHref>
-                        <a className="dropdown-item text-center" onClick={() => setDropdownActive(false)}>Time</a>
+                        <a className="dropdown-item text-center" onClick={() => setSobreDropdownActive(false)}>Time</a>
                       </Link>
                     </li>
                   </ul>
                 </li>
               </ul>
+
               <Link href="/prosel" passHref>
-                <a title="Processo Seletivo" className="btn btn-sm btn-primary ml-lg-3" onClick={() => setActive(false)}>
+                <a title="Processo Seletivo" className="btn btn-sm btn-primary ml-lg-3" onClick={handleLinkClick}>
                   Processo Seletivo
                 </a>
               </Link>
-            </div> 
+            </div>
           </div>
         </nav>
       </div>
