@@ -14,6 +14,10 @@ const menu = [
   {
     name: "Atividades",
     link: "/atividades",
+  },
+  {
+  name: "Cursos",
+    link: "/cursos",
   }
 ];
 
@@ -82,8 +86,8 @@ function Header(): JSX.Element {
                   </li>
                 ))}
 
-                {/* Dropdown Ensino */}
-                <li className="nav-item dropdown">
+               {/* Dropdown Ensino */}
+                {/*<li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
@@ -109,7 +113,7 @@ function Header(): JSX.Element {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li>*/}
 
                 {/* Dropdown Sobre nós */}
                 <li className="nav-item dropdown">
