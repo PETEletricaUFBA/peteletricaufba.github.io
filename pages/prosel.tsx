@@ -1,4 +1,4 @@
-import ProselData from '../data/prosel20251.json'
+import ProselData from '../data/prosel20252.json'
 import Layout from '../components/layout';
 
 const links = ProselData.links;
@@ -7,7 +7,6 @@ const calendar = ProselData.calendar;
 const Prosel = () => {
     return (
         <Layout>
-
             <Title />
             <About />
             <Links />
@@ -21,7 +20,7 @@ const Title = () => (
     <>
         <section className="section pb-0">
             <div className="container text-center">
-                <h1 className="display-3">Processo Seletivo PET 2025.1</h1>
+                <h1 className="display-3">Processo Seletivo PET 2025.2</h1>
 
             </div>
         </section>
