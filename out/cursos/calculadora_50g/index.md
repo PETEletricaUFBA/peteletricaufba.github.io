@@ -14,7 +14,9 @@ type: "featured"
 
 ---
 <!--Botão para voltar para a página anterior-->
-<a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
+<a href="javascript:history.back()" style="position: fixed; top: 49vh; left: 20px; background-color: #001D7E; color: white; width: 40px; height: 40px; line-height: 40px; border-radius: 50%; text-align: center; text-decoration: none; font-size: 24px; z-index: 1000; cursor: pointer; display: inline-block;
+"> &lt;
+</a>
 
 <p style="color: #333;">  <!--Define a cor do texto -->
   A HP 50g é uma calculadora gráfica programável muito popular entre estudantes e profissionais de engenharia, especialmente em cursos como engenharia elétrica. Ela é conhecida por sua capacidade de realizar cálculos complexos, desde álgebra e trigonometria até cálculos avançados, como cálculo diferencial, integral e equações diferenciais.

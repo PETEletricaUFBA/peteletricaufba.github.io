@@ -1,4 +1,4 @@
-import ProselData from '../data/prosel20251.json'
+import ProselData from '../data/prosel20252.json'
 import Layout from '../components/layout';
 
 const links = ProselData.links;
@@ -7,7 +7,6 @@ const calendar = ProselData.calendar;
 const Prosel = () => {
     return (
         <Layout>
-
             <Title />
             <About />
             <Links />
@@ -21,7 +20,7 @@ const Title = () => (
     <>
         <section className="section pb-0">
             <div className="container text-center">
-                <h1 className="display-3">Processo Seletivo PET 2025.1</h1>
+                <h1 className="display-3">Processo Seletivo PET 2025.2</h1>
 
             </div>
         </section>
@@ -51,7 +50,7 @@ const About = () => (
                         <p className="mb-4"></p><p>O <a href="http://portal.mec.gov.br/pet">Programa de Educação Tutorial (PET)</a> de Engenharia Elétrica da UFBA declara aberto o processo de seleção de bolsistas e não bolsistas.</p>
                         <p>Poderão inscrever-se alunas e alunos do curso de Engenharia Elétrica da UFBA que atenderem aos seguintes pré-requisitos:</p>
                         <ol>
-                            <li>Ser aluno do curso de Engenharia Elétrica semestralizado entre o 2º e o 6º semestre;</li>
+                            <li>Ser estudante do Curso de Engenharia Elétrica escalonado a partir do 2º semestre;</li>
                             <li>Apresentar Coeficiente de Rendimento (CR) ≥ 5,0;</li>
                             <li>Ser brasileiro nato ou naturalizado;</li>
                             <li>Ter disponibilidade para dedicar 20 (vinte) horas semanais ao programa, 
