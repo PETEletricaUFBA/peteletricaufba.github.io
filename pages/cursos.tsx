@@ -94,7 +94,7 @@ function Pages({ allCursosData }: {
                                             <a href={link} target="_blank" rel="noopener noreferrer" title="readmore" className="btn btn-primary espaco-abaixo btn-sm">Vem aprender</a>
                                         ) : (
                                             <Link href={link} passHref>
-                                                <a title="readmore" className="btn btn-primary espaco-abaixo btn-sm">Saiba Mais</a>
+                                                <a title="readmore" className="btn btn-primary espaco-abaixo btn-sm">Vem Aprender</a>
                                             </Link>
                                         )}
                                     </div>
