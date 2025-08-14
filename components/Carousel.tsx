@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from '../lib/Image';
+//import Image from 'next/image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -86,7 +87,7 @@ const Carousel = () => {
               <div className="col-lg-4 col-md-5 mb-4 mb-md-0">
                 <div className="img-fluid">
                   <Image 
-                    src="/images/cta.svg" 
+                    src="/images/carousel/prosel 25.2" 
                     alt="Ilustração do Processo Seletivo" 
                     layout='responsive' 
                     width="100%" 
@@ -96,7 +97,7 @@ const Carousel = () => {
               </div>
 
 
-              <div className="col-lg-5 col-md-6 d-flex flex-column justify-content-center">
+              <div className="col-lg-6 col-md-6 d-flex flex-column justify-content-center">
                 <h2 className="section-title">Pronto para se juntar a nós?</h2>
                 <p className="mb-4 text-justify">
                   Confira as informações de como funciona o nosso processo seletivo.
@@ -127,7 +128,7 @@ const Carousel = () => {
           <div className="bg-gray container section shadow rounded-lg px-4">
             <div className="row align-items-center justify-content-center text-center text-md-left">
 
-              <div className="col-lg-6 col-md-6 d-flex flex-column justify-content-center">
+              <div className="col-lg-5 col-md-5 d-flex flex-column justify-content-center">
                 <h2 className="section-title">PET Aulas</h2>
                 <p className="mb-4 text-justify">
                   Confira a nossa nova paylist de <b>Instrumentação Laboratorial</b> no nosso canal do YouTube.
