@@ -14,23 +14,21 @@ export function getSortedCursosData() {
     const folderNames = fs.readdirSync(postsDirectory);
     const allCursosData = folderNames.map(folderName => {
         const file = path.join(postsDirectory, folderName, 'index.md');
-        /*const teste = file.split('\\').slice(-2,-1);
-        console.log(teste)*/
         const id = file.split('/').slice(-2)[0];
         const fileContents = fs.readFileSync(file, 'utf8');
         const matterResult = matter(fileContents);
-        const cover : string ='/cursos/'+id+"/"+matterResult.data.cover;
-        const link = `/cursos/${id}`;
+        const cover: string = '/cursos/' + id + "/" + matterResult.data.cover;
+        // usa external_link se existir, senão link interno
+        const link: string = matterResult.data.external_link ? matterResult.data.external_link : `/cursos/${id}`;
         
         // Combine the data with the id
-        // TODO: Implementar Summary
         return {
             id,
             link,
             image: cover,
             date: matterResult.data.date,
-            title : matterResult.data.title,
-            description : matterResult.data.description,
+            title: matterResult.data.title,
+            description: matterResult.data.description,
         };
     });
     // Sort posts by date
@@ -44,6 +42,7 @@ export function getSortedCursosData() {
         }
     });
 }
+
 
 export function getAllCursosIds() {
     const folderNames = fs.readdirSync(postsDirectory);
