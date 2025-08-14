@@ -36,12 +36,3 @@ $card-height: 100%;
 @import 'templates/main.scss';
 
 @import 'custom';
-
-.main-carousel .swiper-wrapper {
-  display: flex;
-  align-items: stretch; /* Garante que os slides se estiquem */
-}
-
-.main-carousel .swiper-slide {
-  height: auto; /* Permite que o slide se ajuste à altura do wrapper */
-}
