@@ -165,7 +165,8 @@ const Carousel = () => {
       </SwiperSlide>
 
 
-            {/* ===== SLIDE 2:  ===== */}
+            {/* ===== SLIDE 4:  ===== */}
+{/*
       <SwiperSlide>
         <section className="section" style={{ minHeight: '80vh' }}>
           <div className="bg-gray container section shadow rounded-lg px-4">
@@ -197,11 +198,12 @@ const Carousel = () => {
                 </div>
               </div>
 
-
             </div>
           </div>
         </section>
       </SwiperSlide>
+*/}
+
 
 
     </Swiper>
