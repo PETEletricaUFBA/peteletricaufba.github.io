@@ -30,10 +30,8 @@ export default function Post({ postData }: {
             <Content postData={postData} />
 
         </Layout>
-
     );
 }
-
 
 function Content({ postData }: {
     postData: {
@@ -49,25 +47,50 @@ function Content({ postData }: {
     return (
         <div className="container post">
             <div className='col-lg-8 mx-auto'>
-                <div className="title my-5 text-center">
-                    <h1>{postData.title}</h1>
-                    <p className='text-end fw-lighter'><Date dateString={postData.date} /></p>
-                </div>
-                <div className="img-fluid mb-5 overflow-hidden rounded">
-                    <Image src={postData.image} alt={postData.title} layout='responsive' height="100%" width="100%" objectFit="cover" />
+                {/* Título + Imagem lado a lado */}
+                <div className="title my-5 d-flex align-items-center justify-content-center gap-3 flex-wrap text-center">
+                    {postData.image && (
+                        <Image
+                            src={postData.image}
+                            alt={postData.title}
+                            width={50}
+                            height={50}
+                            objectFit="cover"
+                            style={{ borderRadius: "8px" }}
+                        />
+                    )}
+                    <h1 className="m-0">{postData.title}</h1>
                 </div>
 
+                {/* Data */}
+                <p className='text-end fw-lighter'><Date dateString={postData.date} /></p>
+
+                {/* Conteúdo Markdown */}
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 
+                {/* Assinaturas */}
                 {postData.authors.map((author, index) => {
                     if (Members.hasOwnProperty(author) || NomMembers.hasOwnProperty(author)) {
                         return (
-                            <BlogSignature key={index.toString()} author={Members.hasOwnProperty(author) ? Members[author] : NomMembers[author]} index={index} />
-                        )
+                            <BlogSignature
+                                key={index.toString()}
+                                author={Members.hasOwnProperty(author) ? Members[author] : NomMembers[author]}
+                                index={index}
+                            />
+                        );
                     }
                 })}
-                {/* TODO: Implementar plugin de comentarios */}
+
+                {/* TODO: Implementar plugin de comentários */}
             </div>
+
+            {/* CSS inline para manter a imagem proporcional ao título */}
+            <style jsx>{`
+                .title img {
+                    height: 1.2em;
+                    width: auto;
+                }
+            `}</style>
         </div>
     );
 }
@@ -88,4 +111,3 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
         },
     };
 }
-
