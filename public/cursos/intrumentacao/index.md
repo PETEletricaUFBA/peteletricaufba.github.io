@@ -1,5 +1,5 @@
 ---
-title: "Intrumentação Laboratorial"
+title: "Instrumentação Laboratorial"
 date: "2025-08-14"
 description: "Videoaulas sobre Instrumentação Laboratorial"
 cover: images/intrumentacao.png
