@@ -167,3 +167,32 @@ div.scrollmenu a {
 .hidden {
   display: none;
 }
+
+
+
+
+
+/* =============================================== */
+/* == Correção para Altura Uniforme do Carrossel == */
+/* =============================================== */
+
+/* 1. Força o contêiner dos slides a se comportar como um grid flexível */
+.main-carousel .swiper-wrapper {
+  display: flex;
+  align-items: stretch; /* Essencial: estica todos os slides para terem a mesma altura */
+}
+
+/* 2. Garante que cada slide ocupe 100% da altura esticada */
+.main-carousel .swiper-slide {
+  height: 100%;
+}
+
+/* 3. Transforma a 'section' dentro do slide em um contêiner flexível
+      que preenche a altura e centraliza o card cinza */
+.main-carousel .swiper-slide section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

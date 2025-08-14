@@ -5,6 +5,7 @@ import Link from 'next/link';
 import HomeConf from '../data/home.json'
 import { getSortedPostsData } from '../lib/posts';
 import Layout from '../components/layout';
+import Carousel from '../components/Carousel';
 
 
 let triade = HomeConf.triade
@@ -32,6 +33,7 @@ export default function Home({ allPostsData }: {
     <Layout>
 
       <Banner />
+      <Carousel />
       <CorrenteAlternativa featuredPost={allPostsData[0]} />
       <Triade />
       <LivroPET15Anos />
