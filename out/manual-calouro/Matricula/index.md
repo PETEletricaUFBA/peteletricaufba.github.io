@@ -1,11 +1,11 @@
 ---
-title: "Atividades Acadêmicas"
-description: "Como ganhar experiência e me desenvolver dentro da UFMG?"
+title: "Matrícula"
+description: "Saiba quais as principais atividades extracurriculares da UFMG."
 date: "2024-08-04"
 categories: 
-  - "cursos"
+  - "Manual"
   - "dicas-e-tutoriais"
-cover: "images/clip.png"
+cover: "images/lupa.png"
 authors: 
   - matheusCarvalho
 type: "featured"
