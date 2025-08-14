@@ -87,7 +87,7 @@ const Carousel = () => {
               <div className="col-lg-4 col-md-5 mb-4 mb-md-0">
                 <div className="img-fluid">
                   <Image 
-                    src="/images/carousel/prosel 25.2" 
+                    src="/images/carousel/prosel.png" 
                     alt="Ilustração do Processo Seletivo" 
                     layout='responsive' 
                     width="100%" 
@@ -150,7 +150,7 @@ const Carousel = () => {
               <div className="col-lg-4 col-md-5 mb-4 mb-md-0">
                 <div className="img-fluid">
                   <Image 
-                    src="/images/cta.svg" 
+                    src="/images/carousel/petAulas.png" 
                     alt="Ilustração do Processo Seletivo" 
                     layout='responsive' 
                     width="100%" 
