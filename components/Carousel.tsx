@@ -12,6 +12,7 @@ import 'swiper/css/pagination';
 
 const Carousel = () => {
   return (
+    // A classe 'main-carousel' é a chave para o nosso CSS funcionar
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
       loop={true}
@@ -25,15 +26,14 @@ const Carousel = () => {
       className="main-carousel"
 
 
-
 >
       {/* ===== SLIDE 1: BOAS-VINDAS ===== */}
-      <SwiperSlide className="h-100">
-        <section className="section d-flex align-items-center h-100" style={{ minHeight: '80vh' }}>
-          <div className="bg-gray container section shadow rounded-lg px-4 h-100">
-            <div className="row align-items-center justify-content-center text-center text-md-left h-100">
+      <SwiperSlide>
+        <section className="section" style={{ minHeight: '80vh' }}>
+          <div className="bg-gray container section shadow rounded-lg px-4">
+            <div className="row align-items-center justify-content-center text-center text-md-left">
               
-              <div className="col-lg-6 col-md-6 d-flex flex-column justify-content-center">
+              <div className="col-lg-5 col-md-6 d-flex flex-column justify-content-center">
                 <h2 className="section-title">PET Elétrica UFBA</h2>
                 <p className="mb-4 text-justify">
                   PET é a sigla para Programa de Educação Tutorial, um programa ligado
@@ -46,7 +46,7 @@ const Carousel = () => {
                 <div className="mt-auto">
                   <Link href="/team" passHref>
                     <a title="Conheça nosso time" className="btn btn-primary">
-                      Conheça o nosso Time
+                      Conheça nosso Time
                     </a>
                   </Link>
                 </div>
@@ -72,10 +72,10 @@ const Carousel = () => {
 
 
       {/* ===== SLIDE 2: PROCESSO SELETIVO ===== */}
-      <SwiperSlide className="h-100">
-        <section className="section d-flex align-items-center h-100" style={{ minHeight: '80vh' }}>
-          <div className="bg-gray container section shadow rounded-lg px-4 h-100">
-            <div className="row align-items-center justify-content-center text-center text-md-left h-100">
+      <SwiperSlide">
+        <section className="section" style={{ minHeight: '80vh' }}>
+          <div className="bg-gray container section shadow rounded-lg px-4">
+            <div className="row align-items-center justify-content-center text-center text-md-left">
 
               <div className="col-lg-4 col-md-5 mb-4 mb-md-0">
                 <div className="img-fluid">
