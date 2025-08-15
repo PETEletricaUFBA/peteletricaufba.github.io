@@ -85,12 +85,15 @@ q {
 }
 
 .crop-text-1 {
-  -webkit-line-clamp: 4;
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  -webkit-line-clamp: 4; /* Suporte atual */
+  line-clamp: 4;         /* Para compatibilidade futura */
 }
+
 
 .authorbio {
   position: relative;
