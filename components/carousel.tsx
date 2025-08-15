@@ -51,7 +51,8 @@ const Carousel = () => {
         }}
         navigation={true}
         onSwiper={(swiper: SwiperType) => (swiperRef.current = swiper)}
-        onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+        onSlideChange={(swiper: SwiperType) => setActiveIndex(swiper.realIndex)}
+
         className="carousel"
       >
         {slides.map((slide, index) => (
