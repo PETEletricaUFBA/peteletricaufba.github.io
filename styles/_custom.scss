@@ -85,12 +85,15 @@ q {
 }
 
 .crop-text-1 {
-  -webkit-line-clamp: 4;
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  -webkit-line-clamp: 4; /* Suporte atual */
+  line-clamp: 4;         /* Para compatibilidade futura */
 }
+
 
 .authorbio {
   position: relative;
@@ -168,31 +171,60 @@ div.scrollmenu a {
   display: none;
 }
 
+/* ======================================================= */
+/* == CSS PARA O CARROSSEL PRINCIPAL == */
+/* ======================================================= */
+/* carousel.css - no mesmo arquivo ou contexto do Bootstrap */
 
-
-
-
-/* =============================================== */
-/* == Correção para Altura Uniforme do Carrossel == */
-/* =============================================== */
-
-/* 1. Força o contêiner dos slides a se comportar como um grid flexível */
-.main-carousel .swiper-wrapper {
-  display: flex;
-  align-items: stretch; /* Essencial: estica todos os slides para terem a mesma altura */
-}
-
-/* 2. Garante que cada slide ocupe 100% da altura esticada */
-.main-carousel .swiper-slide {
-  height: 100%;
-}
-
-/* 3. Transforma a 'section' dentro do slide em um contêiner flexível
-      que preenche a altura e centraliza o card cinza */
-.main-carousel .swiper-slide section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.carousel-wrapper {
+  position: relative;
   width: 100%;
+}
+
+.carousel {
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
 }
+
+.carousel-image-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.carousel-btn {
+  width: fit-content;
+  display: inline-block;
+}
+
+.carousel-pagination {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.carousel-pagination-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #ccc;
+}
+
+.carousel-pagination-dot.active {
+  background: #007bff; /* Bootstrap primary */
+}
+
