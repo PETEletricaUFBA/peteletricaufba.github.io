@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from '../lib/Image';
+import { Swiper as SwiperType } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -49,7 +50,7 @@ const Carousel = () => {
           disableOnInteraction: false,
         }}
         navigation={true}
-        onSwiper={(swiper) => (swiperRef.current = swiper)}
+        onSwiper={(swiper: SwiperType) => (swiperRef.current = swiper)}
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         className="carousel"
       >
