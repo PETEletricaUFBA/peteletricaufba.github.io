@@ -52,5 +52,11 @@
             "date": "Até 01/10/2025",
             "description": "Divulgação do resultado final."
         }   
+    ],
+    "results": [
+        {
+            "stage": "Inscrições Homologadas",
+            "link": "/docs/prosel/PS_20252_inscricoes_homologadas.pdf"
+        }
     ]
 }
