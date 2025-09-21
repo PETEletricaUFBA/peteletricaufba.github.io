@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 
 const links = ProselData.links;
 const calendar = ProselData.calendar;
+const results = ProselData.results;
 
 const Prosel = () => {
     return (
@@ -10,8 +11,8 @@ const Prosel = () => {
             <Title />
             <About />
             <Links />
+            <Resultados />
             <Calendar />
-
         </Layout>
     );
 };
@@ -95,9 +96,43 @@ const Links = () => (
     </section>
 );
 
+const Resultados = () => (
+    <section className="section py-auto">
+        <div className="container section shadow rounded-lg px-4 bg-gray">
+            <div className="row">
+                <div className="col-lg-8 mx-auto">
+                    <h2 className="section-title">Resultado das Etapas</h2>
+
+                    <table className="table table-hover">
+                        <thead className="thead-light">
+                            <tr>
+                                <th scope="col" data-field="data">Etapas</th>
+                                <th scope="col" data-field="descricao">Resultado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {results.map((item, index) => (
+                                <tr key={index.toString()}>
+                                    <td scope="row">{item.stage}</td>
+                                    <td>
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer"className="">
+                                            Resultado disponível
+                                        </a>
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+);
+
+
 const Calendar = () => (
     <section className="section py-auto">
-        <div className="container">
+        <div className="container section shadow rounded-lg px-4 bg-light">
             <div className="row">
                 <div className="col-lg-8 mx-auto">
                     <h2 className="section-title">Calendário</h2>
