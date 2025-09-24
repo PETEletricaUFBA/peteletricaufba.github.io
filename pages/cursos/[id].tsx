@@ -56,16 +56,22 @@ function Content({ postData }: {
                 {/*<div className="img-fluid mb-5 overflow-hidden rounded">
                     <Image src={postData.image} alt={postData.title} layout='responsive' height="100%" width="100%" objectFit="cover" />
                 </div>*/}
-
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-
-                {postData.authors.map((author, index) => {
-                    if (Members.hasOwnProperty(author) || NomMembers.hasOwnProperty(author)) {
-                        return (
-                            <BlogSignature key={index.toString()} author={Members.hasOwnProperty(author) ? Members[author] : NomMembers[author]} index={index} />
-                        )
-                    }
-                })}
+                
+                <div className="title my-5 text-center">
+                    <h3>Autores</h3>
+                    <hr />
+                </div>
+                <div className="text-start">
+                    {postData.authors.map((author, index) => {
+                        if (Members.hasOwnProperty(author) || NomMembers.hasOwnProperty(author)) {
+                            return (
+                                <BlogSignature key={index.toString()} author={Members.hasOwnProperty(author) ? Members[author] : NomMembers[author]} index={index} />
+                            )
+                        }
+                    })}
+                </div>
+                
                 {/* TODO: Implementar plugin de comentarios */}
             </div>
         </div>
