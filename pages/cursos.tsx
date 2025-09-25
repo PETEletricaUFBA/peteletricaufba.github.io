@@ -63,7 +63,7 @@ function Pages({ allCursosData }: {
                         return (
                             <div className="col-lg-4 col-sm-6 mb-5 " key={index.toString()}>
                                 <div className="card">
-                                    <div className="card-img rounded-lg mb-4 overflow-hidden" style={{ height: 280 }}>
+                                    <div className="card-img rounded-lg mb-4 overflow-hidden" >
                                     <img
                                         src={image}
                                         alt={title}
