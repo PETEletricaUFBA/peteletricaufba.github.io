@@ -27,7 +27,7 @@ type: "featured"
 
 ## O que você verá neste curso:
 
-<div style="display: flex; color: #333;">
+<div style="display: flex; color: #333; text-align: left;">
   <div style="flex: 1; padding: 10px;">
     <ul>
       <li>Interface</li>
