@@ -57,6 +57,10 @@
         {
             "stage": "Inscrições Homologadas",
             "link": "/docs/prosel/PS_20252_inscricoes_homologadas.pdf"
+        },
+        {
+            "stage": "Resultado Preliminar",
+            "link": "/docs/prosel/PS_20252_resultado_preliminar.docx.pdf"
         }
     ]
 }

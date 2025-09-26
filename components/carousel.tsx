@@ -18,11 +18,11 @@ const Carousel = () => {
 
   const slides = [
     {
-      title: 'Pronto para se juntar a nós?',
-      text: 'Confira as informações de como funciona o nosso processo seletivo.',
+      title: 'Processo Seletivo 2025.2',
+      text: 'Confira o resultado preliminar na aba de processo seletivo.',
       image: imagemProsel,
-      buttonText: 'Processo Seletivo',
-      buttonLink: '/prosel',
+      buttonText: 'Resultado disponível',
+      buttonLink: 'prosel',
     },
     {
       title: 'Mulheres da Escola Politécnica',
@@ -74,11 +74,11 @@ const Carousel = () => {
                   </div>
 
                   {/* Texto e botão */}
-                  <div className="col-lg-6 col-md-6 col-10 d-flex flex-column justify-content-center text-start">
+                  <div className="col-lg-6 col-md-6 col-10 d-flex flex-column justify-content-center text-start text-center text-md-start mx-auto">
                     <h2 className="section-title">{slide.title}</h2>
-                    <p className="mb-4 text-justify">{slide.text}</p>
+                    <p className="mb-4">{slide.text}</p>
                     <Link href={slide.buttonLink} passHref>
-                      <a className="btn btn-primary carousel-btn">
+                      <a className="btn btn-primary carousel-btn mx-auto mx-md-0">
                         {slide.buttonText}
                       </a>
                     </Link>
