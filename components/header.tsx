@@ -104,7 +104,7 @@ function Header(): JSX.Element {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/manutencao" passHref>
+                      <Link href="/manual-calouro" passHref>
                         <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Manual do Calouro</a>
                       </Link>
                     </li>

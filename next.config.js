@@ -1,12 +1,17 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+});
+
 const nextConfig = {
   reactStrictMode: true,
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   env: {
     BASE_URL: 'https://peteletricaufba.github.io',
   },
   images: {
-    loader: "custom"
-  }
-}
+    loader: "custom",
+  },
+};
 
-module.exports = nextConfig
+module.exports = withMDX(nextConfig);
