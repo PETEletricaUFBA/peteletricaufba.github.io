@@ -64,29 +64,25 @@ export async function getManualData(id: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  // ⚡ Processa frontmatter e conteúdo MDX
+  // ⚡ Aqui é que você processa o frontmatter e o conteúdo MDX corretamente
   const { content, data } = matter(fileContents);
-  const mdxSource = await serialize(content, {
-    scope: data,
-    mdxOptions: {
-      remarkPlugins: [
-        remarkGfm,
-        [remarkImgLink, { absolutePath: process.env.BASE_URL + `/manual-calouro/${id}/` }],
-      ],
-    },
-  });
+  const mdxSource = await serialize(content, { scope: data, mdxOptions: {
+    remarkPlugins: [
+      [remarkImgLink, { absolutePath: process.env.BASE_URL + `/manual-calouro/${id}/` }],
+    ],
+  }});
 
-  const cover = data.cover ? `/manual-calouro/${id}/${data.cover}` : '';
+  const cover = `/manual-calouro/${id}/${data.cover}`;
   const link = `/manual-calouro/${id}`;
 
   return {
     id,
-    mdxSource,       // conteúdo MDX serializado
+    mdxSource,
     image: cover,
     link,
     date: data.date,
     title: data.title,
     description: data.description,
-    authors: data.authors || [],
+    authors: data.authors,
   };
 }
