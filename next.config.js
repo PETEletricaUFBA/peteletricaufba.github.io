@@ -9,7 +9,9 @@ const nextConfig = {
     BASE_URL: 'https://peteletricaufba.github.io',
   },
   images: {
-    unoptimized: true, // ✅ desativa otimização e corrige o erro
+    unoptimized: true, // Desabilitar otimização de imagens
+    loader: 'imgix',  // Usar um loader de imagens externo
+    path: '',  // Isso pode ajudar a evitar o caminho de otimização padrão do Next
   },
 };
 
