@@ -7,6 +7,9 @@ import Image from '../../lib/Image';
 import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
 
+// 1. IMPORTAÇÃO DO NOVO COMPONENTE DE ABAS (Ajuste o caminho conforme sua estrutura)
+import Disciplinas from '../../components/disciplinas'; 
+
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
 
@@ -44,6 +47,9 @@ function Content({ postData }: {
         authors: Array<string>;
     }
 }) {
+    // VARIÁVEL PARA RENDERIZAÇÃO CONDICIONAL
+    const isDisciplinasPage = postData.id === 'Disciplinas';
+
     return (
         <div className="container post">
             <div className='col-lg-8 mx-auto'>
@@ -62,14 +68,24 @@ function Content({ postData }: {
                     <h1 className="m-0">{postData.title}</h1>
                 </div>
 
-                {/* Data */}
-                <p className='text-end fw-lighter'><Date dateString={postData.date} /></p>
+                {/* Data (somente se não for a página Disciplinas, já que o componente Disciplinas renderiza seu próprio conteúdo) */}
+                {!isDisciplinasPage && (
+                    <p className='text-end fw-lighter'>
+                        <Date dateString={postData.date} />
+                    </p>
+                )}
 
-                {/* Conteúdo Markdown */}
-                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                {/* ÁREA DE CONTEÚDO PRINCIPAL: LÓGICA DE INTERFACE */}
+                {isDisciplinasPage ? (
+                    // Se o ID for 'Disciplinas', renderiza o componente interativo (abas)
+                    <Disciplinas />
+                ) : (
+                    // Se não, renderiza o HTML estático do Markdown (para outros posts)
+                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                )}
 
-                {/* Assinaturas */}
-                {postData.authors.map((author, index) => {
+                {/* Assinaturas (A ser exibido apenas em posts normais, não na página interativa de Disciplinas) */}
+                {!isDisciplinasPage && postData.authors && postData.authors.map((author, index) => {
                     if (Members.hasOwnProperty(author) || NomMembers.hasOwnProperty(author)) {
                         return (
                             <BlogSignature
@@ -95,6 +111,7 @@ function Content({ postData }: {
     );
 }
 
+// Funções de build do Next.js (getStaticPaths e getStaticProps) permanecem inalteradas
 export async function getStaticPaths() {
     const paths = getAllManualIds();
     return {
