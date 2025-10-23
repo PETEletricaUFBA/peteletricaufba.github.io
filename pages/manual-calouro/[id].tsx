@@ -8,7 +8,7 @@ import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 {/*Importar todos com componentes com REACT que vão dentros dos arquivos .MDX do manual do calouro*/}
-import AbasMaterias from '../../public/manual-calouro/1-Disciplinas/resto';
+import AbasMaterias from './resto';
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
