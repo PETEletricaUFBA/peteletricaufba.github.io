@@ -1,94 +1,88 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import remarkHtml from 'remark-html';
+import { serialize } from 'next-mdx-remote/serialize';
 import remarkGfm from 'remark-gfm';
-import remarkImgLink from "@pondorasti/remark-img-links";
+import remarkImgLink from '@pondorasti/remark-img-links';
 
 const postsDirectory = path.join(process.cwd(), 'public/manual-calouro');
 
+/**
+ * Procura o arquivo index.md ou index.mdx dentro de uma pasta
+ */
+function getMarkdownFile(folderPath: string) {
+  const possibleFiles = ['index.mdx', 'index.md'];
+  const foundFile = possibleFiles.find(f => fs.existsSync(path.join(folderPath, f)));
+  if (!foundFile) throw new Error(`Nenhum arquivo Markdown encontrado em ${folderPath}`);
+  return path.join(folderPath, foundFile);
+}
 
+/**
+ * Retorna todos os posts do manual, ordenados pela data
+ */
 export function getSortedManualData() {
-    // Get file names under /posts
-    const folderNames = fs.readdirSync(postsDirectory);
-    const allCursosData = folderNames.map(folderName => {
-        const file = path.join(postsDirectory, folderName, 'index.md');
-        /*const teste = file.split('\\').slice(-2,-1);
-        console.log(teste)*/
-        const id = file.split('/').slice(-2)[0];
-        const fileContents = fs.readFileSync(file, 'utf8');
-        const matterResult = matter(fileContents);
-        const cover : string ='/manual-calouro/'+id+"/"+matterResult.data.cover;
-        const link = `/manual-calouro/${id}`;
-        
-        // Combine the data with the id
-        // TODO: Implementar Summary
-        return {
-            id,
-            link,
-            image: cover,
-            date: matterResult.data.date,
-            title : matterResult.data.title,
-            description : matterResult.data.description,
-        };
-    });
-    // Sort posts by date
-    return allCursosData.sort(({ date: a  }, { date: b }) => {
-        if (a < b) {
-            return 1;
-        } else if (a > b) {
-            return -1;
-        } else {
-            return 0;
-        }
-    });
-}
+  const folderNames = fs.readdirSync(postsDirectory);
 
-export function getAllManualIds() {
-    const folderNames = fs.readdirSync(postsDirectory);
+  const allCursosData = folderNames.map(folderName => {
+    const folderPath = path.join(postsDirectory, folderName);
+    const file = getMarkdownFile(folderPath);
 
-    return folderNames.map(folderName => {
-        const file = path.join(postsDirectory, folderName, 'index.md');
-
-
-        return {
-            params: {
-                id : file.split('/').slice(-2)[0]
-            }
-        };
-    });
-
-}
-
-export async function getManualData(id: string) {
-    //console.log("Chegou aquiiiiiiii")
-    const fullPath = path.join(postsDirectory, id, 'index.md');
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-    // Use gray-matter to parse the post metadata section
+    const fileContents = fs.readFileSync(file, 'utf8');
     const matterResult = matter(fileContents);
-    const cover : string ='/manual-calouro/' + id + '/' + matterResult.data.cover;
 
-    const processedContent = await remark()
-        .use(remarkHtml, {sanitize: false})
-        .use(remarkGfm)
-        .use(remarkImgLink, { absolutePath: process.env.BASE_URL + "/manual-calouro/"+id+"/" })
-        .process(matterResult.content);
+    const cover = `/manual-calouro/${folderName}/${matterResult.data.cover}`;
+    const link = `/manual-calouro/${folderName}`;
 
-    const contentHtml = processedContent.toString();
-
-    const link = `/manual-calouro/${id}`;
-    console.log(contentHtml)
-    // Combine the data with the id
     return {
-        id,
-        contentHtml,
-        image: cover,
-        link,
-        date: matterResult.data.date,
-        title : matterResult.data.title,
-        description : matterResult.data.description,
-        authors : matterResult.data.authors,
+      id: folderName,
+      link,
+      image: cover,
+      date: matterResult.data.date,
+      title: matterResult.data.title,
+      description: matterResult.data.description,
     };
+  });
+
+  // Ordena por data decrescente
+  return allCursosData.sort(({ date: a }, { date: b }) => (a < b ? 1 : a > b ? -1 : 0));
+}
+
+/**
+ * Retorna todos os IDs das pastas do manual
+ */
+export function getAllManualIds() {
+  const folderNames = fs.readdirSync(postsDirectory);
+  return folderNames.map(folderName => ({ params: { id: folderName } }));
+}
+
+/**
+ * Retorna os dados de um post específico, processando o MDX para usar componentes React
+ */
+export async function getManualData(id: string) {
+  const folderPath = path.join(postsDirectory, id);
+  const fullPath = getMarkdownFile(folderPath);
+
+  const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+  // ⚡ Aqui é que você processa o frontmatter e o conteúdo MDX corretamente
+  const { content, data } = matter(fileContents);
+  const mdxSource = await serialize(content, { scope: data, mdxOptions: {
+    remarkPlugins: [
+      [remarkImgLink, { absolutePath: process.env.BASE_URL + `/manual-calouro/${id}/` }],
+    ],
+  }});
+
+  const cover = `/manual-calouro/${id}/${data.cover}`;
+  const link = `/manual-calouro/${id}`;
+
+  return {
+    id,
+    mdxSource,
+    image: cover,
+    link,
+    date: data.date,
+    title: data.title,
+    description: data.description,
+    authors: data.authors,
+  };
 }
