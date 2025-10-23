@@ -1,4 +1,3 @@
-// next.config.js
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
 });
@@ -10,7 +9,7 @@ const nextConfig = {
     BASE_URL: 'https://peteletricaufba.github.io',
   },
   images: {
-    loader: "custom",
+    unoptimized: true, // ✅ desativa otimização e corrige o erro
   },
 };
 
