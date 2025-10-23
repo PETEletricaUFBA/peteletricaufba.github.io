@@ -1,7 +1,7 @@
 ---
 title: "Disciplinas"
 description: "Conheça as disciplinas obrigatórias e eletivas da Engenharia Elétrica."
-date: "2025-10-17"
+date: "2025-10-23"
 categories: 
   - "Manual"
   - "dicas-e-tutoriais"
