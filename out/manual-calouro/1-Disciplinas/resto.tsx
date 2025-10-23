@@ -128,12 +128,17 @@ const AbasMaterias: React.FC = () => {
 
     // Componente do botão de voltar (MANTIDO)
     const BackButton = () => (
-        <a
-          onClick={() => history.back()}
+        <a 
+          href="javascript:history.back()" 
           style={{
-            position: 'fixed',top: '49vh',left: '20px',backgroundColor: '#001D7E',color: 'white',width: '40px',height: '40px',lineHeight: '40px',borderRadius: '50%',textAlign: 'center',textDecoration: 'none',fontSize: '24px',zIndex: 1000,cursor: 'pointer',display: 'inline-block',}}
-        >&lt;
-        </a>
+            position: 'fixed', top: '49vh', left: '20px', backgroundColor: '#001D7E', 
+            color: 'white', width: '40px', height: '40px', lineHeight: '40px', 
+            borderRadius: '50%', textAlign: 'center', textDecoration: 'none', 
+            fontSize: '24px', zIndex: 1000, cursor: 'pointer', display: 'inline-block'
+          }}
+        >
+          &lt;
+        </a> 
     );
 
     return (
