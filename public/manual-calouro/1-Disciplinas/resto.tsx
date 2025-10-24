@@ -12,7 +12,7 @@ interface Semestre {
     numPasta: string; 
 }
 
-const PDF_BASE_PATH = '/docs/disciplinas/';
+const PDF_BASE_PATH = '/docs/disciplinas/'; // Mantido por consistência, mas não mais usado para o link final
 
 const semestres: Semestre[] = [
     {
@@ -155,9 +155,77 @@ const AbasMaterias: React.FC = () => {
         setOpenEmenta(openEmenta === codigo ? null : codigo);
     };
 
-    // Função para gerar o nome do arquivo PDF 
-    const getPdfFullPath = (numPasta: string, codigo: string) => 
-        `${PDF_BASE_PATH}${numPasta}/${codigo.toLowerCase()}.pdf`;
+    /**
+     * FUNÇÃO MODIFICADA: Retorna o link para download ou página do PDF.
+     * * ATENÇÃO: SUBSTITUA O VALOR '##COLE-O-LINK-AQUI##' PELO LINK REAL DE CADA PDF.
+     * Você pode usar as variáveis `numPasta` e `codigo` para construir um link dinâmico,
+     * ou usar uma estrutura de dados (mapa) para mapear o código ao link.
+     */
+    const getPdfDownloadLink = (numPasta: string, codigo: string): string => {
+        // --- INÍCIO DA ÁREA DE MODIFICAÇÃO (COLE SEUS LINKS AQUI) ---
+        // Exemplo de como você pode mapear links:
+        const linkMap: { [key: string]: string } = {
+            'ADM012': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/adm012_-_administracao_10-06-2008.pdf',
+            'ARQ011': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/arq011_-_desenho_tecnico_i_1996.pdf',
+            'DIR175': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/dir175_-_legislacao_social_2007.pdf',
+            'ECO151': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/eco151_-_economia_e_financas_2008.pdf',
+            'ENG269': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/eng269_-_ciencias_do_ambiente_nao_identificado.pdf',
+            'ENG295': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/eng295_-_higiene_e_seguranca_do_trabaho_2008.pdf',
+            'ENG370': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/eng370_-_fenomenos_de_transportes_i_2008.pdf',
+            'ENG439': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/eng439_-_introducao_a_engenharia_eletrica_ap_27-03-2014.pdf',
+            'ENGA47': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/enga47_-_tecnologia_dos_materiais_para_eng._eletrica_ap_31-10-2016.pdf',
+            'ENGC24': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc24_-_sinais_e_sistemas_i_ap_31-10-2016.pdf',
+            'ENGC25': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc25_-_analise_de_circuitos_ii_ap_31-10-2016.pdf',
+            'ENGC26': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc26_-_sistemas_logicos_ap_31-10-2016.pdf',
+            'ENGC27': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc27_-_sistemas_de_comunicacoes_i_ap_31-10-2016.pdf',
+            'ENGC28': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc28_-_laboratorio_integrado_i_ap_27-03-2014.pdf',
+            'ENGC29': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc29_-_metodologia_e_expressao_do_conhecimento_cientifico_ap_27-03-2014.pdf',
+            'ENGC32': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc32_-_analise_de_circuitos_i_ap_31-10-2016.pdf',
+            'ENGC33': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc33_-_sinais_e_sistemas_ii_ap_31-10-2016.pdf',
+            'ENGC34': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc34_-_eletromagnetismo_aplicado_ap_31-10-2016.pdf',
+            'ENGC35': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc35_-_modelagem_e_analise_de_sistemas_dinamicos_ap_31-10-2016.pdf',
+            'ENGC36': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc36_-_dispositivos_de_conversao_eletromecanica_i_ap_19-12-2008.pdf',
+            'ENGC37': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc37_-_laboratorio_integrado_ii_ap_27-03-2014.pdf',
+            'ENGC38': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc38_-_laboratorio_integrado_iii_ap_27-03-2014.pdf',
+            'ENGC39': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc39_-_laboratorio_integrado_iv_ap_27-03-2014.pdf',
+            'ENGC40': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc40_-_eletronica_digital_ap_31-10-2016.pdf',
+            'ENGC41': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc41_-_dispositivos_eletronicos_ap_31-10-2016.pdf',
+            'ENGC42': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc42_-_sistemas_de_controle_i_ap_31-10-2016.pdf',
+            'ENGC43': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc43_-_dispositivos_de_conversao_eletromecanica_ii_ap_27-03-2014.pdf',
+            'ENGC44': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc44_-_sistemas_de_potencia_i_ap_27-03-2014.pdf',
+            'ENGC45': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc45_-_instalacoes_e_equipamentos_eletricos_iap_27-03-2014.pdf',
+            'ENGC46': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc46_-_sintese_de_circuitos_ap_31-10-2016.pdf',
+            'ENGC47': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc47_-_transmissao_e_distribuicao_de_energia_eletrica_ap_27-03-2014.pdf',
+            'ENGC48': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc48_-_eletronica_de_potencia_ap_27-03-2014.pdf',
+            'ENGC49': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc49_-_medicao_de_grandezas_fisicas_ap_27-03-2014.pdf',
+            'ENGC50': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc50_-_sistemas_microprocessados_ap_31-10-2016.pdf',
+            'ENGC51': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc51_-_eletronica_analogica_ap_27-03-2014.pdf',
+            'ENGC52': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc52_-_geracao_de_energia_eletrica_ap_27-03-2014.pdf',
+            'ENGC53': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc53_-_laboratorio_integrado_v_ap_27-03-2014.pdf',
+            'ENGC54': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc54_-_laboratorio_integrado_vi_ap_27-03-2014.pdf',
+            'ENGC55': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc55_-_-_laboratorio_integrado_vii_ap_27-03-2014.pdf',
+            'ENGC56': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc56_-_trabalho_final_de_graduacao_ap_29-06-2017.pdf',
+            'ENGC57': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/engc57_-_estagio_curricular_em_engenharia_eletrica_ap_29-06-2017.pdf',
+            'FIS121': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/fis121_-_fisica_geral_e_experimental_i_-_e_22-04-2004.pdf',
+            'FIS122': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/fis122_-_fisica_geral_e_experimental_ii_-_e_22-04-2004.pdf',
+            'FIS123': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/fis123_-_fisica_geral_e_experimental_iii_-_e_sem_data.pdf',
+            'FIS124': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/fis124_-_fisica_geral_e_experimental_iv_-_e_sem_data.pdf',
+            'MAT045': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mat045_-_processamento_de_dados_1998.pdf',
+            'MAT174': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mat174_-_calculo_numerico_i_sem_data.pdf',
+            'MAT236': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mat236_-_metodos_estatisticos_06-01-2005.pdf',
+            'MATA01': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata01_-_geometria_analitica_28-08-2006.pdf',
+            'MATA02': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata02_-_calculo_a_11-05-2005.pdf',
+            'MATA03': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata03_-_calculo_b_11-05-2005.pdf',
+            'MATA04': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata04_-_calculo_c_11-05-2005.pdf',
+            'MATA06': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata06_-_calculo_e_11-05-2005.pdf',
+            'MATA07': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/mata07_-_algebra_linear_a_28-08-2006_0.pdf',
+            'QUI029': 'https://www.eng.ufba.br/sites/eng.ufba.br/files/qui029_-_quimica_geral_19-11-2007.pdf',
+        };
+
+        // Retorna o link mapeado, ou um link de placeholder se não for encontrado
+        return linkMap[codigo] || `##LINK-PARA-${codigo}-NAO-ENCONTRADO##`;
+        // --- FIM DA ÁREA DE MODIFICAÇÃO ---
+    };
 
     // Componente do botão de voltar 
     const BackButton = () => (
@@ -283,11 +351,12 @@ const AbasMaterias: React.FC = () => {
                                     <span style={{ fontWeight: 'bold' }}>Descrição:</span> {disc.ementa}
                                 </p>
                                 
-                                {/* LINK DE DOWNLOAD DO PDF (APONTA PARA O NOVO CAMINHO) */}
+                                {/* LINK DE DOWNLOAD DO PDF (APONTA PARA O NOVO LINK) */}
                                 <p className="mt-2 mb-0">
                                     <a 
-                                        href={getPdfFullPath(activeSemestre.numPasta, disc.codigo)}
-                                        download
+                                        href={getPdfDownloadLink(activeSemestre.numPasta, disc.codigo)}
+                                        target="_blank" // Abre o link em nova aba (opcional, mas recomendado)
+                                        rel="noopener noreferrer" // Recomendado para links com target="_blank"
                                         style={{ 
                                             color: darkPrimary, 
                                             fontWeight: 'bold',
@@ -295,7 +364,7 @@ const AbasMaterias: React.FC = () => {
                                         }}
                                         title={`Baixar PDF completo de ${disc.nome}`}
                                     >
-                                        Clique aqui para mais informações (Baixar PDF)
+                                        Clique aqui para mais informações (Ver PDF)
                                     </a>
                                 </p>
                             </div>
