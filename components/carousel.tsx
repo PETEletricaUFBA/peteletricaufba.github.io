@@ -8,7 +8,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import imagemProsel from '../public/images/carousel/prosel.png';
+import imagemMinicuros from '../public/images/carousel/minicursos.png';
 import imagemPetAulas from '../public/images/carousel/petAulas.png';
 import imagemEbookmulhers from '../public/images/carousel/mulherespoli.png';
 
@@ -18,11 +18,11 @@ const Carousel = () => {
 
   const slides = [
     {
-      title: 'Processo Seletivo 2025.2',
-      text: 'Confira o resultado preliminar na aba de processo seletivo.',
-      image: imagemProsel,
-      buttonText: 'Resultado disponível',
-      buttonLink: 'prosel',
+      title: 'MINICURSOS 2025.2',
+      text: 'Se prepara, porque de 03 a 06 de novembro a Escola Politécnica vai ser tomada por uma sequência de minicursos imperdíveis! 🚀 | 🎨Canva — Crie vídeos que impressionam! | 🤖Programação em Arduino | ⚙️Projeto Elétrico em CAD | 🧩Modelagem e Impressão 3D | 📊MATLAB',
+      image: imagemMinicuros,
+      buttonText: 'Últimas vagas',
+      buttonLink: 'https://docs.google.com/forms/d/e/1FAIpQLSciOujFhrwAG9McsOGwBQaryLcKqKAuSl5Mhdes8CpbrK8rjg/viewform',
     },
     {
       title: 'Mulheres da Escola Politécnica',
@@ -78,7 +78,11 @@ const Carousel = () => {
                     <h2 className="section-title">{slide.title}</h2>
                     <p className="mb-4">{slide.text}</p>
                     <Link href={slide.buttonLink} passHref>
-                      <a className="btn btn-primary carousel-btn mx-auto mx-md-0">
+                      <a
+                        className="btn btn-primary carousel-btn mx-auto mx-md-0"
+                        target={slide.buttonLink.startsWith('http') ? '_blank' : '_self'}
+                        rel={slide.buttonLink.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      >
                         {slide.buttonText}
                       </a>
                     </Link>
