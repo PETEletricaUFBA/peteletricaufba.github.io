@@ -13,27 +13,23 @@ status: "ON"
 <!--Botão para voltar para a página anterior-->
 <a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
 
-### <span style="color:#001D7E;" class="blink-animation"><i><u>LANÇAMENTO</i></u></span>
+<!--  o conterúdo começa a partir daqui -->
+<p style="color: #333;text-align: justify;">
+ O Grupo de Pesquisa em Empoderamento Feminino (GPEF) nasceu para investigar as questões de gênero no curso de Engenharia Elétrica da UFBA e, a partir daí, pensar em ações que realmente façam diferença na vida das mulheres — sejam alunas, professoras ou até mesmo mulheres que estão fora da universidade. A ideia é simples: transformar o ambiente do curso em um espaço mais justo, acolhedor e igualitário.
+Além de seguir firme nos pilares de Pesquisa, Ensino e  Extensão, o grupo também busca estar mais próximo das estudantes, criando momentos de troca, apoio e inspiração. Entre as atividades, estão previstas ações junto a alunos e alunas do Ensino Médio de colégios estaduais, além de encontros e projetos voltados especialmente para as mulheres da Escola Politécnica. O objetivo? Formar uma rede de apoio que fortaleça quem já está no curso e incentive novas meninas a se aventurarem pelo universo da engenharia.
+Um dos pontos altos do grupo são as oficinas práticas em escolas públicas, onde a engenharia básica ganha vida de forma divertida e acessível. Nessas oficinas, os estudantes — especialmente as meninas — colocam a mão na massa. Alguns dos projetos já realizados são: Mini bobina de Tesla, um semáforo interativo com LEDs, um labirinto elétrico com LED e Buzzer, entre muitos outros. A ideia é simples e poderosa: despertar a curiosidade, mostrar na prática como funcionam conceitos da engenharia e estimular o interesse pelas áreas da Ciência, Tecnologia e Engenharia. 
+Outro trabalho de grande destaque realizado pelo GPEF foi a pesquisa e catalogação das mulheres que já passaram pela Escola Politécnica da UFBA (EPUFBA). Esse esforço resultou no livro “Mulheres da Escola Politécnica da UFBA”, uma obra que dá voz, visibilidade e reconhecimento à trajetória dessas mulheres. A publicação não só resgata suas histórias, mas também busca inspirar futuras engenheiras, matemáticas, cientistas e tantas outras jovens que desejam trilhar caminhos ainda pouco ocupados por mulheres.
+O coração dessa iniciativa é justamente abrir caminhos: incentivar meninas e mulheres a sonharem e se verem nas áreas de ciência, tecnologia e engenharia, mesmo em espaços onde a presença masculina ainda é maioria. Ao mesmo tempo, o grupo busca unir quem já está na jornada, para que juntas possam superar os desafios de uma graduação e de um mercado de trabalho em que as mulheres ainda são minoria.
+E tem mais: o grupo também aposta na visibilidade. Seja em ações presenciais ou nas redes sociais do PET Elétrica, a proposta é levar referências femininas que inspirem, motivem e mostrem que lugar de mulher é onde ela quiser — inclusive na engenharia.
 
-<style>
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
 
-.blink-animation {
-    display: inline-block;
-    animation: blink 1s step-start infinite;
-}
-</style>
 
+<!--  LIVRO -->
+
+<p style="color: #333; text-align: justify;">
+  <strong>Conheça Nosso Ebook</strong>
+</p>
 <br>
-
-## <span style="color:#E5989B;">📖 Mulheres da Escola Politécnica</span>
 
 <p style="color: #333; text-align: justify;">
   Estamos entusiasmadas em anunciar o lançamento do Ebook <strong>Mulheres da Escola Politécnica</strong>, uma obra que reúne experiências, desafios e conquistas de mulheres na área de engenharia. Este livro foi produzido com a colaboração de estudantes e profissionais da Escola Politécnica da UFBA, trazendo relatos inspiradores e análises sobre a presença feminina em um campo predominantemente masculino.
@@ -50,7 +46,7 @@ status: "ON"
   <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf#toolbar=0" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </iframe>
 --->
-  <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf" width="80%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <iframe src="/docs/livros/Mulheres da Escola Politecnica da UFBA.pdf" width="30%" height="300px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   </iframe>
 </div>
 <br>
@@ -63,27 +59,3 @@ status: "ON"
 
 <br><br>
 
-<!--  o conterúdo começa a partir daqui -->
-<p style="color: #333;">
-  Grupo de Pesquisa em Empoderamento Feminino - GPEF desenvolve-se como um grupo
-  encarregado de analisar questões de gênero relacionadas, sobretudo, ao curso de Engenharia
-  Elétrica da UFBA. A partir disso, atua-se de maneira efetiva de modo a diminuir as problemáticas
-  das mulheres do corpo docente/discente devido à desigualdade de gênero no respectivo curso. Para
-  2024, além dos pilares Pesquisa e Extensão, o grupo busca realizar ações para aproximar e apoiar as
-  estudantes do curso de Engenharia Elétrica. Dessa forma, a atividade em questão visa a realização
-  de atividades extensionistas com alunos e alunas do Ensino Médio de Colégios Estaduais, mas
-  também o desenvolvimento de ações com as mulheres da Escola Politécnica, a fim de aproximá-las e
-  criar uma rede de apoio. A partir dessa ação, espera-se não só incentivar outras adolescentes e
-  mulheres a atuarem nessas áreas em que a desigualdade de gênero ainda é tão expressiva, como
-  também contribuir para união das já presentes no curso e autonomia das participantes.
-</p>
-<p style="color: #333;">
-  O objetivo principal da atividade em questão é realizar ações que sirvam de incentivo para meninas
-  e mulheres que vislumbram áreas como engenharia, ciência e tecnologia para a vida acadêmica e
-  profissional, uma vez que esses ambientes são majoritariamente masculinos. Ainda, o grupo visa
-  promover a união das mulheres já presentes no curso, com o objetivo de criar uma rede de apoio,
-  para que juntas possam superar os desafios de uma graduação com baixa presença feminina e um
-  mercado de trabalho predominantemente machista. A atividade também busca levar referências
-  femininas, tanto através de ações com outras meninas e mulheres quanto através de conteúdo nas
-  redes sociais do PET Elétrica.
-</p><br><br>
