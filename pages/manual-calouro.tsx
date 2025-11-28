@@ -105,18 +105,6 @@ function Pages({ allManualData }: {
           ))}
         </div>
       </div>
-
-      {/* CSS da animação */}
-      <style jsx>{`
-        .card-animado:hover {
-          background-color: #f0f0f0; /* cinza claro */
-          transform: scale(1.03); /* aumenta levemente */
-          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* sombra */
-        }
-        .card-title {
-          color: #000 !important; /* força preto */
-        }
-      `}</style>
     </section>
   );
 }

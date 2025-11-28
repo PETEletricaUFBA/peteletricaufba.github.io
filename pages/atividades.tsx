@@ -90,11 +90,6 @@ function Pages({ allAtividadesData }: {
                     ))}
                 </div>
             </div>
-            <style jsx>{`
-                .card-title {
-                    color: #000 !important;
-                }
-            `}</style>
         </section>
     );
 }
@@ -156,11 +151,6 @@ function Pages2({ allAtividadesData }: {
                     ))}
                 </div>
             </div>
-            <style jsx>{`
-                .card-title {
-                    color: #000 !important;
-                }
-            `}</style>
         </section>
     );
 }

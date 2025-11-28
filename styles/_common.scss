@@ -182,3 +182,16 @@ textarea.form-control {
     top: 3px;
   }
 }
+
+.card-title {
+  color: #000 !important;
+}
+.fw-lighter,
+  .text-muted {
+    color: #6c757d !important;
+}
+.card-animado:hover {
+  background-color: #f0f0f0; /* cinza claro */
+  transform: scale(1.03); /* aumenta levemente */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* sombra */
+}
