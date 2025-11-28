@@ -20,7 +20,7 @@
     "alissoncaua": {
         "name": "Alisson Cauã",
         "active": true,
-        "image": "/images/team/AAA_membro_novo.png",
+        "image": "/images/team/alissoncaua.jpg",
         "bio": null,
         "signature": null,
         "dates": {
@@ -140,25 +140,6 @@
             {
                 "name": "email",
                 "link": "mailto:gabrieldeazevedoarauj0@gmail.com"
-            }
-        ]
-    },
-     
-    "karineSilva": {
-        "name": "Karine Silva",
-        "active": true,
-        "image": "/images/team/karineSilva.jpg",
-        "bio": "Viva intensamente",
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:karinesilvasm@gmail.com"
             }
         ]
     },
@@ -344,6 +325,24 @@
             {
                 "name": "CV",
                 "link": "http://lattes.cnpq.br/2479925820855121"
+            }
+        ]
+    },
+    "karineSilva": {
+        "name": "Karine Silva",
+        "active": false,
+        "image": "/images/team/karineSilva.jpg",
+        "bio": "Viva intensamente",
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:karinesilvasm@gmail.com"
             }
         ]
     },

@@ -13,8 +13,6 @@ status: "ON"
 <!--Botão para voltar para a página anterior-->
 <a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
 
-### <span style="color:#001D7E;" class="blink-animation"><i><u>LANÇAMENTO</i></u></span>
-
 <style>
 @keyframes blink {
     0%, 100% {
