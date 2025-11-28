@@ -57,9 +57,16 @@ const Egress = () => (
         {/* TODO: Implementar Modal pop up para o card dos egressos */}
         {Members.map((item, index) => {
           if (!item[1].active) return (
-            <a className='mx-2 my-3'>
-              <div className="rounded-img overflow-hidden p-0" key={index.toString()}>
-                <Image src={item[1].image} alt={item[1].name + "Photo"} layout='responsive' height="100%" width="100%" objectFit="cover" />
+            <a className='mx-2 my-3' key={index.toString()}>
+              <div className="rounded-img overflow-hidden p-0">
+                <Image 
+                  src={item[1].image} 
+                  alt={item[1].name + "Photo"} 
+                  layout='responsive' 
+                  height="100%" 
+                  width="100%" 
+                  objectFit="cover" 
+                />
               </div>
             </a>
           )
@@ -68,7 +75,4 @@ const Egress = () => (
     </div>
   </section>
 );
-
-
-
 export default Team;
