@@ -18,7 +18,7 @@ function getMarkdownFile(folderPath: string) {
 }
 
 /**
- * Retorna todos os posts do manual, ordenados pela data
+ * Retorna todos os posts do manual, ordenados pelo campo "order"
  */
 export function getSortedManualData() {
   const folderNames = fs.readdirSync(postsDirectory);
@@ -37,14 +37,12 @@ export function getSortedManualData() {
       id: folderName,
       link,
       image: cover,
-      date: matterResult.data.date,
+      order: matterResult.data.order ?? 9999,
       title: matterResult.data.title,
       description: matterResult.data.description,
     };
   });
-
-  // Ordena por data decrescente
-  return allCursosData.sort(({ date: a }, { date: b }) => (a < b ? 1 : a > b ? -1 : 0));
+  return allCursosData.sort((a, b) => a.order - b.order);
 }
 
 /**
@@ -56,7 +54,7 @@ export function getAllManualIds() {
 }
 
 /**
- * Retorna os dados de um post específico, processando o MDX para usar componentes React
+ * Retorna os dados de um post específico
  */
 export async function getManualData(id: string) {
   const folderPath = path.join(postsDirectory, id);
@@ -64,13 +62,16 @@ export async function getManualData(id: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  // ⚡ Aqui é que você processa o frontmatter e o conteúdo MDX corretamente
   const { content, data } = matter(fileContents);
-  const mdxSource = await serialize(content, { scope: data, mdxOptions: {
-    remarkPlugins: [
-      [remarkImgLink, { absolutePath: process.env.BASE_URL + `/manual-calouro/${id}/` }],
-    ],
-  }});
+
+  const mdxSource = await serialize(content, {
+    scope: data,
+    mdxOptions: {
+      remarkPlugins: [
+        [remarkImgLink, { absolutePath: process.env.BASE_URL + `/manual-calouro/${id}/` }],
+      ],
+    },
+  });
 
   const cover = `/manual-calouro/${id}/${data.cover}`;
   const link = `/manual-calouro/${id}`;
@@ -80,7 +81,8 @@ export async function getManualData(id: string) {
     mdxSource,
     image: cover,
     link,
-    date: data.date,
+    order: data.order ?? 9999,
+    date: data.date, // mantém caso você use em outro lugar
     title: data.title,
     description: data.description,
     authors: data.authors,

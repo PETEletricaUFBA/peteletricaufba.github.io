@@ -142,3 +142,13 @@
     }
   }
 }
+
+.nav-link,
+.dropdown-item {
+  color: #000 !important;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #000 !important;
+  background-color: #f3f3f3;
+}
