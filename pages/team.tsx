@@ -46,6 +46,20 @@ const Actives = () => (
         })}
       </div>
     </div>
+    <style jsx>{`
+      .card-title {
+        color: #000 !important;
+      }
+
+      .fw-lighter,
+      .text-muted {
+        color: #6c757d !important;
+      }
+
+      .card-text {
+        color: #000 !important;
+      }
+    `}</style>
   </section>
 );
 
@@ -68,5 +82,7 @@ const Egress = () => (
     </div>
   </section>
 );
+
+
 
 export default Team;

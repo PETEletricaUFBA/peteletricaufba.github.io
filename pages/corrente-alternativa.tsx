@@ -117,6 +117,7 @@ function Pages({ allPostsData }: {
                     ))}
                 </div>
             </div>
+                    
         </section >
     );
 }

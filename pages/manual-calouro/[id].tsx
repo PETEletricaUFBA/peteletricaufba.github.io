@@ -7,12 +7,14 @@ import Image from '../../lib/Image';
 import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
-{/*Importar todos com componentes com REACT que vão dentros dos arquivos .MDX do manual do calouro*/}
 import AbasMaterias from '../../public/manual-calouro/1-Disciplinas/resto';
+import AbasMatricula from '../../public/manual-calouro/2-Matricula/matricula';
+
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
 
+// ⬇️ ADICIONADO order AQUI
 interface PostData {
   id: string;
   mdxSource: MDXRemoteSerializeResult;
@@ -22,6 +24,7 @@ interface PostData {
   date: string;
   description: string;
   authors: string[];
+  order?: number;    // <──────── AQUI
 }
 
 interface Props {
@@ -60,9 +63,13 @@ export default function Post({ postData }: Props) {
           )}
 
           <MDXRemote
-            {...postData.mdxSource}
-            components={{ AbasMaterias }}
-          />
+          {...postData.mdxSource}
+          components={{
+            AbasMaterias,
+            AbasMatricula,   // ⬅️ ADICIONADO
+          }}
+/>
+
 
           {!isDisciplinasPage &&
             postData.authors?.map((author, index) => {
@@ -86,6 +93,6 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   const postData = await getManualData(params.id);
 
   return {
-    props: { postData },
+    props: { postData },  // <── order já vem daqui
   };
 }

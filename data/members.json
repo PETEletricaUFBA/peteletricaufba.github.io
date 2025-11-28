@@ -17,10 +17,24 @@
             }
         ]
     },
-    
-    
-    
-    
+    "alissoncaua": {
+        "name": "Alisson Cauã",
+        "active": true,
+        "image": "/images/team/AAA_membro_novo.png",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.2",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alisson.cauav@gmail.com"
+            }
+        ]
+    },
     "AnaClara": {
         "name": "Ana Clara Coutinho",
         "active": true,
@@ -57,6 +71,24 @@
             }
         ]
     },
+    "beatrizreale": {
+        "name": "Beatriz Reale",
+        "active": true,
+        "image": "/images/team/beatrizreale.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.1",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:beatrizsantanasales@gmail.com"
+            }
+        ]
+    },
     "brenocosta": {
         "name": "Breno Costa",
         "active": true,
@@ -75,21 +107,21 @@
             }
         ]
     },
-    "erickSampaio": {
-        "name": "Erick Sampaio",
+    "caiomazza": {
+        "name": "Caio Mazza",
         "active": true,
-        "image": "/images/team/erickSampaio.jpg",
+        "image": "/images/team/caiomazza.jpg",
         "bio": null,
         "signature": null,
         "dates": {
             "UFBA": "2022.1",
-            "joinPET": "2024",
+            "joinPET": "2025",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:ericksampaio@ufba.br"
+                "link": "mailto:caio.mpmazza@gmail.com"
             }
         ]
     },
@@ -202,6 +234,24 @@
             }
         ]
     },
+    "nataliasantos": {
+        "name": "Natália Santos",
+        "active": true,
+        "image": "/images/team/nataliasantos.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.1",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:nataliaopasantos@gmail.com"
+            }
+        ]
+    },
     "paulosantana": {
         "name": "Paulo Santana",
         "active": true,
@@ -297,7 +347,25 @@
             }
         ]
     },
- "pedroNogueira": {
+    "erickSampaio": {
+        "name": "Erick Sampaio",
+        "active": false,
+        "image": "/images/team/erickSampaio.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:ericksampaio@ufba.br"
+            }
+        ]
+    },
+    "pedroNogueira": {
         "name": "Pedro Nogueira",
         "active": false,
         "image": "/images/team/pedroNogueira.jpg",
