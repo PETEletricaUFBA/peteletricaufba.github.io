@@ -37,12 +37,12 @@ status: "ON"
 </p>
 <!-- espaço para imagem -->
 <div style="text-align:center; margin: 20px 0;">
-<img src="/atividades/Pesquisas/images/antena 1.png" alt="Legenda da imagem 1" style="width:100%; max-width:800px; border-radius: 10px;">
+<img src="/atividades/Pesquisas/images/antena 2.png" alt="Legenda da imagem 1" style="width:100%; max-width:800px; border-radius: 10px;">
 <p style="font-style:italic; color:#555;">Modelagem 3D da antena e propriedades. Feito no Solidworks.</p>
 </div>
 <!-- espaço para imagem -->
 <div style="text-align:center; margin: 20px 0;">
-<img src="/atividades/Pesquisas/images/antena 2.png" alt="Legenda da imagem 2" style="width:100%; max-width:800px; border-radius: 10px;">
+<img src="/atividades/Pesquisas/images/antena 1.png" alt="Legenda da imagem 2" style="width:100%; max-width:800px; border-radius: 10px;">
 <p style="font-style:italic; color:#555;">Resultados da simulação da antena QFH no software 4NEC2, mostrando parâmetros elétricos, impedância, eficiência e o diagrama de radiação no plano vertical para operação em 137,5 MHz.</p>
 </div>
 <p style="color: #333; text-align: justify;">
