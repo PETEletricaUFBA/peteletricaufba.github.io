@@ -12,7 +12,7 @@ status: "ON"
 <!--Botão para voltar para a página anterior-->
 <a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
 <!--  o conterúdo começa a partir daqui -->
-<br><br><p style="color: #333;">
+<br><br><p style="color: #333; text-align: justify;">
   O PET Nota Mil é uma atividade de extensão para além do ambiente da Universidade que visa
   preparar alunos de ensino médio, de escolas públicas e privadas, para a realização do ENEM (Exame
   Nacional do Ensino Médio). A atividade é realizada a partir de aulões que tratam das principais
@@ -21,7 +21,7 @@ status: "ON"
   principalmente, de estudantes do ensino público, sanando dúvidas e permitindo uma interação e
   compartilhamento de experiências com os petianos que vão para além da sala de aula.
 </p>
-<p style="color: #333;">
+<p style="color: #333; text-align: justify;">
   O objetivo do PET Nota Mil é proporcionar o fortalecimento dos alunos, principalmente, do ensino
   público em matérias e temáticas, de ciências da natureza e matemática, que são de suma
   importância para realização do ENEM (Exame Nacional do Ensino Médio), que acontece no final do
@@ -29,4 +29,19 @@ status: "ON"
   dúvidas sobre as temáticas tratadas e possam ter, também, um contato maior com os petianos
   participantes, seja para terem maior contato com o ambiente da universidade, ou para compartilhar
   experiências.
-</p><br><br>
+</p><br>
+<t style="color: #333; font-size: 24px; font-weight: bold; font-style: italic; text-align: center; display: block;">
+  Imagens PET Nota Mil - Edição 2025:
+</t><br>
+<!-- espaço para duas figuras lado a lado -->
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <figure style="text-align: center; width: 45%;">
+    <img src="/atividades/PET-Nota-Mil/images/notamil1.jpg" alt="Error" style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">Petiano Marco resolvendo exercícios de física no PET Nota Mil 2025.</figcaption>
+  </figure>
+
+  <figure style="text-align: center; width: 45%;">
+    <img src="/atividades/PET-Nota-Mil/images/notamil2.jpg" alt="Error" style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">Equipe do PET Nota mil e os alunos presentes na edição 2025.</figcaption>
+  </figure>
+</div><br><br>

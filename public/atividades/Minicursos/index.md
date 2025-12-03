@@ -30,9 +30,6 @@ status: "ON"
   conhecimento aos(às) estudantes de uma forma geral, a atividade visa ampliar a visibilidade do
   grupo PET Elétrica junto ao corpo discente da Universidade.
 </p>
-<p style="color: #333; text-align: justify;">
-  Os minicursos acontecem uma ou duas vezes por ano, sempre na mesma semana do POLIACTA. Como durante esse período não há aulas na Escola Politécnica da UFBA, os petianos podem utilizar os laboratórios da instituição para a realização das atividades.
-</p>
 
 <t style="color: #333; font-size: 24px; font-weight: bold; font-style: italic; text-align: left; display: block;">
   Minicursos 2025.2:

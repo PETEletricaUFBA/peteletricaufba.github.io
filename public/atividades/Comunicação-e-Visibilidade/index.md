@@ -13,7 +13,7 @@ status: "ON"
 <a href="javascript:history.back()" style="position: fixed; center: 20px; left: 20px; background-color: #001D7E; color: white; padding: 10px 15px; border-radius: 50%; text-decoration: none; font-size: 24px; z-index: 1000;">&lt;</a>
 
 <!--  o conterúdo começa a partir daqui -->
-<p style="color: #333;">
+<p style="color: #333; text-align: justify;">
   A atividade Comunicação, Visibilidade e Produção visa unificar a administração dos canais de
   comunicação vinculados ao PET Elétrica: site, redes sociais e e-mail, além dos meios de comunicação
   física - cartazes, panfletos e banners. Estabelecer e manter ativa a comunicação e integração do
@@ -22,7 +22,7 @@ status: "ON"
   divulgação do trabalho realizado pelo grupo; o perfil no Instagram, onde são divulgadas atividades,
   eventos e assuntos de relevância para o grupo e a comunidade externa; Recepção de calouros.
 </p>
-<p style="color: #333;">
+<p style="color: #333; text-align: justify;">
   O objetivo desta atividade é difundir toda a produção de materiais do grupo, seja técnica ou cultural,
   para o público em geral, assim como organizar, planejar e administrar site e redes sociais vinculadas
   ao PET Elétrica. Esta tarefa tem o intuito de manter atualizadas as informações e materiais de

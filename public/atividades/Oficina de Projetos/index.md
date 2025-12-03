@@ -37,7 +37,7 @@ status: "ON"
   Medidor de Energia:
 </t><br>
 <p style="color: #333; text-align: justify;">
-  Esse projeto utiliza um medidor de corrente não invasivo SCT013, com o objetivo de analisar o quanto de corrente está passando por uma das fases do equipamento escolhido. Atualmente o projeto está montado e em funcionamento. Para uma das futuras melhorias, será possível monitorar o sistema remotamente a partir de um aplicativo via celular.
+  Esse projeto utiliza um medidor de corrente não invasivo SCT013, com o objetivo de analisar se o equipamento está ligado ou não consumindo energia e o quanto de corrente está passando por uma das fases do equipamento escolhido, possibilitando monitorar em tempo real o equipamento e verificando se está funcionando corretamente com base nesses dados de consumo. Atualmente o projeto está montado e em funcionamento. Para uma das futuras melhorias, será possível monitorar o sistema remotamente a partir de um aplicativo via celular.
 </p>
 <!-- espaço para duas figuras lado a lado -->
 <div style="display: flex; justify-content: center; gap: 20px;">
