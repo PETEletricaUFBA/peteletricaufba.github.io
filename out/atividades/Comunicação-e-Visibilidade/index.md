@@ -30,3 +30,15 @@ status: "ON"
   público externo ao Departamento de Engenharia Elétrica e de Computação ou mesmo à
   Universidade.
 </p><br><br>
+<!-- espaço para duas figuras lado a lado -->
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <figure style="text-align: center; width: 45%;">
+    <img src="/atividades/Comunicação-e-Visibilidade/images/cev1.png" alt="Error" style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">Folders desenvolvidos pela equipe de Comunicação e Visbilidade (C&V) do PET ELétrica UFBA.</figcaption>
+  </figure>
+
+  <figure style="text-align: center; width: 45%;">
+    <img src="/atividades/Comunicação-e-Visibilidade/images/cev2.jpg" alt="Error" style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">Banner desenvolvido pela equipe de C&V.</figcaption>
+  </figure>
+</div><br><br>

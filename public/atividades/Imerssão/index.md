@@ -66,8 +66,11 @@ status: "ON"
   Fechadura com RFID:
 </t><br>
 <p style="color: #333; text-align: justify;">
-  Nesse projeto, três calouros com duas petianas desenvolveram uma fechadura inteligente que abre com cartão utilizando a tecnologia NFC (Near Field Communication), sem precisar de chave, usando Arduíno, RFID e trava elétrica solenoide.
-</p>
+Nesse projeto, três calouros, acompanhados por duas petianas, desenvolveram uma fechadura inteligente baseada em identificação por radiofrequência. O sistema utiliza a tecnologia NFC (Near Field Communication) para realizar a leitura de cartões compatíveis, reconhecidos e previamente permitidos pelo sistema, permitindo a abertura da porta sem a necessidade de chave física.</p>
+<p style="color: #333; text-align: justify;">
+A solução foi construída a partir de um Arduino como unidade de controle, integrado a um módulo RFID responsável por identificar o cartão e validar o acesso. Quando um cartão autorizado é aproximado do leitor, o Arduino processa o sinal e aciona uma trava elétrica solenoide, liberando a abertura da fechadura de forma rápida e segura.</p>
+<p style="color: #333; text-align: justify;">
+O projeto destaca conceitos essenciais de automação e segurança eletrônica, demonstrando na prática como sistemas RFID podem ser aplicados a controles de acesso residenciais ou institucionais. Além disso, aprimora o entendimento dos alunos sobre eletrônica, programação embarcada e integração entre hardware e software, evidenciando o potencial de soluções inteligentes utilizando componentes de baixo custo e fácil implementação.</p>
 <!-- espaço para duas figuras lado a lado -->
 <div style="display: flex; justify-content: center; gap: 20px;">
   <figure style="text-align: center; width: 45%;">
