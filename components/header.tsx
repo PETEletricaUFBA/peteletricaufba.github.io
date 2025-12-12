@@ -67,7 +67,7 @@ function Header(): JSX.Element {
               aria-expanded={active}
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon navbar-light"></span>
             </button>
 
             <div className={`collapse navbar-collapse ${active ? 'show' : ''}`} id="navbarNav">
