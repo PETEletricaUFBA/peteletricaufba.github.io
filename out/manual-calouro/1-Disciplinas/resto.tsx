@@ -325,7 +325,7 @@ const AbasMaterias: React.FC = () => {
                             <li 
                                 className="list-group-item d-flex justify-content-between align-items-center"
                                 onClick={() => toggleEmenta(disc.codigo)}
-                                style={{ cursor: 'pointer', fontWeight: 'bold' }}
+                                style={{ cursor: 'pointer', fontWeight: 'bold', color:'#495057' }}
                             >
                                 <div>
                                     <strong>{disc.codigo}:</strong> {disc.nome}
