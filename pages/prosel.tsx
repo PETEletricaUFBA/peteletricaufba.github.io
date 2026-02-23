@@ -1,4 +1,4 @@
-import ProselData from '../data/prosel20252.json'
+import ProselData from '../data/prosel20261.json'
 import Layout from '../components/layout';
 
 const links = ProselData.links;
@@ -11,7 +11,7 @@ const Prosel = () => {
             <Title />
             <About />
             <Links />
-            <Resultados />
+           {/* <Resultados /> */}
             <Calendar />
         </Layout>
     );
@@ -21,7 +21,7 @@ const Title = () => (
     <>
         <section className="section pb-0">
             <div className="container text-center">
-                <h1 className="display-3">Processo Seletivo PET 2025.2</h1>
+                <h1 className="display-3">Processo Seletivo PET 2026.1</h1>
 
             </div>
         </section>
@@ -48,7 +48,7 @@ const About = () => (
                     <div className="col-lg-8 mx-auto">
                         <h3><i className="mdi-content-send brown-text"></i></h3>
                         <h1 className="mb-3">Sobre o processo seletivo online</h1>
-                        <p className="mb-4"></p><p>O <a href="http://portal.mec.gov.br/pet">Programa de Educação Tutorial (PET)</a> de Engenharia Elétrica da UFBA declara aberto o processo de seleção de bolsistas e não bolsistas.</p>
+                        <p className="mb-4"></p><p>O <a href="https://www.gov.br/mec/pt-br/pet" target='_blank'>Programa de Educação Tutorial (PET)</a> de Engenharia Elétrica da UFBA declara aberto o processo de seleção de bolsistas e não bolsistas.</p>
                         <p>Poderão inscrever-se alunas e alunos do curso de Engenharia Elétrica da UFBA que atenderem aos seguintes pré-requisitos:</p>
                         <ol>
                             <li>Ser estudante do Curso de Engenharia Elétrica escalonado a partir do 2º semestre;</li>
