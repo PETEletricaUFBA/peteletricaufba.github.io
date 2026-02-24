@@ -82,7 +82,7 @@ const Links = () => (
                                 <h4 className="mb-2">{item.name}</h4>
                             </a>
                             <p>{item.content}</p>
-                            <a href={item.link} target="_blank" rel="noreferrer"><button className="btn btn-primary"> Clique aqui </button></a>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"> Clique aqui </button></a>
                         </div>
                     </div>
                 ))}
