@@ -48,7 +48,7 @@ const About = () => (
                     <div className="col-lg-8 mx-auto">
                         <h3><i className="mdi-content-send brown-text"></i></h3>
                         <h1 className="mb-3">Sobre o processo seletivo online</h1>
-                        <p className="mb-4"></p><p>O <a href="https://www.gov.br/mec/pt-br/pet" target='_blank'>Programa de Educação Tutorial (PET)</a> de Engenharia Elétrica da UFBA declara aberto o processo de seleção de bolsistas e não bolsistas.</p>
+                        <p className="mb-4"></p><p>O <a href="https://www.gov.br/mec/pt-br/pet" target='_blank'rel="noopener">Programa de Educação Tutorial (PET)</a> de Engenharia Elétrica da UFBA declara aberto o processo de seleção de bolsistas e não bolsistas.</p>
                         <p>Poderão inscrever-se alunas e alunos do curso de Engenharia Elétrica da UFBA que atenderem aos seguintes pré-requisitos:</p>
                         <ol>
                             <li>Ser estudante do Curso de Engenharia Elétrica escalonado a partir do 2º semestre;</li>
@@ -82,7 +82,7 @@ const Links = () => (
                                 <h4 className="mb-2">{item.name}</h4>
                             </a>
                             <p>{item.content}</p>
-                            <a href={item.link} rel="noopener"><button className="btn btn-primary"> Clique aqui </button></a>
+                            <a href={item.link} target="_blank" rel="noopener"><button className="btn btn-primary"> Clique aqui </button></a>
                         </div>
                     </div>
                 ))}
