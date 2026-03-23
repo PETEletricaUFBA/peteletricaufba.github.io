@@ -1,10 +1,10 @@
 {
     "links": [
         {
-            "name": "Edital",
+            "name": "Edital - Retificado!",
             "icon": "fas fa-journal-whills",
             "content": "Todas as informações oficiais estarão neste importante documento. Assim, é de obrigatoriedade a leitura e o entendimento completo para uma participação saudável no processo seletivo.",
-            "link": "/docs/prosel/PS_20261_edital_assinado.pdf"
+            "link": "/docs/prosel/PS_20261_edital_assinado_v2.pdf"
         },
         {
             "name": "Formulario de inscrição",
