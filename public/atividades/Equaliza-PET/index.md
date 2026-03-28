@@ -22,7 +22,7 @@ status: "ON"
 </div><br>
 
 <p style="color: #333;">
-  É verdade que eles moram na oficina? 😱 E que os pilotos passam pela prova do 5 segundos para sair do carrinho? 🥵 Teve carro que já pegou fogo? 😳 Essas são algumas das curiosidades que você vai conhecer nessa conversa que foi gravada pela petiana Tíscile Cabral e a imersa Alana Silva, com os convidados participantes André Castro, atual capitão da equipe Axé Fly Aerodesign, Áthila Silva, gerente de projetos do Kamikaze Racing Team e Gustavo Cerqueira, integrante da equipe de eletrônica do Carpoeira Baja. Está imperdível! 😍🥳🥳🥳
+  É verdade que eles moram na oficina? 😱 E que os pilotos passam pela prova do 5 segundos para sair do carrinho? 🥵 Teve carro que já pegou fogo? 😳 Essas são algumas das curiosidades que você vai conhecer nessa conversa que foi gravada pela petiana Tíscile Cabral e a imersa Alanna Silva, com os convidados participantes André Castro, atual capitão da equipe Axé Fly Aerodesign, Áthila Silva, gerente de projetos do Kamikaze Racing Team e Gustavo Cerqueira, integrante da equipe de eletrônica do Carpoeira Baja. Está imperdível! 😍🥳🥳🥳
 </p>
 <p style="color: #333;">
   Se você que é fã das equipes de competição da nossa universidade, não pode ficar sem ouvir, hein! ❤
