@@ -1,4 +1,4 @@
-{ 
+{
     "alannasilva": {
         "name": "Alanna Silva",
         "active": true,
@@ -35,39 +35,21 @@
             }
         ]
     },
-    "AnaClara": {
-        "name": "Ana Clara Coutinho",
+    "arturfarias": {
+        "name": "Artur Farias",
         "active": true,
-        "image": "/images/team/anaClara.jpg",
+        "image": "/images/team/arturfarias.jpg",
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2022.2",       
-            "joinPET": "2023",
+            "UFBA": "2024.1",       
+            "joinPET": "2026",
             "egressPET": null
         },
         "social": [
             {
                 "name": "email",
-                "link": "mailto:anaclara.acoutinho@hotmail.com"
-            }
-        ]
-    },
-    "athilaSantos": {
-        "name": "Áthila Santos",
-        "active": true,
-        "image": "/images/team/athilaSantos.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:athila.silva@ufba.br    "
+                "link": "mailto:alannasilvafaculdade@gmail.com"
             }
         ]
     },
@@ -89,24 +71,6 @@
             }
         ]
     },
-    "brenocosta": {
-        "name": "Breno Costa",
-        "active": true,
-        "image": "/images/team/brenocosta.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.2",       
-            "joinPET": "2025",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:brenoccs04@gmail.com"
-            }
-        ]
-    },
     "caiomazza": {
         "name": "Caio Mazza",
         "active": true,
@@ -122,6 +86,60 @@
             {
                 "name": "email",
                 "link": "mailto:caio.mpmazza@gmail.com"
+            }
+        ]
+    },
+    "carlacristina": {
+        "name": "Carla Cristina",
+        "active": true,
+        "image": "/images/team/carlacristina.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
+            }
+        ]
+    },
+    "enzomascarenhas": {
+        "name": "Enzo Mascarenhas",
+        "active": true,
+        "image": "/images/team/enzomascarenhas.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.2",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
+            }
+        ]
+    },
+    "franciscoredes": {
+        "name": "Francisco Redes",
+        "active": true,
+        "image": "/images/team/franciscoredes.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.2",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
             }
         ]
     },
@@ -143,6 +161,60 @@
             }
         ]
     },
+    "gabrielsilva": {
+        "name": "Gabriel Silva",
+        "active": true,
+        "image": "/images/team/gabrielsilva.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
+            }
+        ]
+    },
+    "joaolucastrindade": {
+        "name": "João Lucas Trindade",
+        "active": true,
+        "image": "/images/team/joaolucastrindade.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
+            }
+        ]
+    },
+    "joaovitorcruz": {
+        "name": "João Vitor Cruz",
+        "active": true,
+        "image": "/images/team/joaovitorcruz.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2025.2",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:alannasilvafaculdade@gmail.com"
+            }
+        ]
+    },
     "lucassantos": {
         "name": "Lucas Santos",
         "active": true,
@@ -158,24 +230,6 @@
             {
                 "name": "email",
                 "link": "mailto:lucassgsz09@gmail.com"
-            }
-        ]
-    },
-    "lucianaNascimento": {
-        "name": "Luciana Pereira Nascimento",
-        "active": true,
-        "image": "/images/team/lucianaNascimento.jpg",
-        "bio": "“Põe quanto és no mínimo que fazes” Fernando Pessoa",
-        "signature": null,
-        "dates": {
-            "UFBA": "2021.2",
-            "joinPET": "2023",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:lucianapereira@ufba.br"
             }
         ]
     },
@@ -197,24 +251,6 @@
             }
         ]
     },
-    "marcoAntonio": {
-        "name": "Marco Antônio Carvalho",
-        "active": true,
-        "image": "/images/team/marcoAntonio.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.1",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:marcocarvalho1906@gmail.com"
-            }
-        ]
-    },
     "nataliasantos": {
         "name": "Natália Santos",
         "active": true,
@@ -222,7 +258,7 @@
         "bio": null,
         "signature": null,
         "dates": {
-            "UFBA": "2023.1",       
+            "UFBA": "2024.1",       
             "joinPET": "2025",
             "egressPET": null
         },
@@ -269,43 +305,6 @@
             }
         ]
     },
-   
-    "rebecaCardoso": {
-        "name": "Rebeca Cardoso",
-        "active": true,
-        "image": "/images/team/rebecaCardoso.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.1",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:rebecacard10@gmail.com"
-            }
-        ]
-    },
-    "sarahGonçalves": {
-        "name": "Sarah Gonçalves ",
-        "active": true,
-        "image": "/images/team/sarahGonçalves.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.2",
-            "joinPET": "2024",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:sarahlssss15@gmail.com"
-            }
-        ]
-    },
     "maiconDeivid": {
         "name": "Maicon Deivid Pereira",
         "active": true,
@@ -325,6 +324,132 @@
             {
                 "name": "CV",
                 "link": "http://lattes.cnpq.br/2479925820855121"
+            }
+        ]
+    },
+    "sarahGonçalves": {
+        "name": "Sarah Gonçalves ",
+        "active": false,
+        "image": "/images/team/sarahGonçalves.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:sarahlssss15@gmail.com"
+            }
+        ]
+    },
+    "rebecaCardoso": {
+        "name": "Rebeca Cardoso",
+        "active": false,
+        "image": "/images/team/rebecaCardoso.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.1",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:rebecacard10@gmail.com"
+            }
+        ]
+    },
+    "marcoAntonio": {
+        "name": "Marco Antônio Carvalho",
+        "active": false,
+        "image": "/images/team/marcoAntonio.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.1",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:marcocarvalho1906@gmail.com"
+            }
+        ]
+    },
+    "lucianaNascimento": {
+        "name": "Luciana Pereira Nascimento",
+        "active": false,
+        "image": "/images/team/lucianaNascimento.jpg",
+        "bio": "“Põe quanto és no mínimo que fazes” Fernando Pessoa",
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:lucianapereira@ufba.br"
+            }
+        ]
+    },
+    "brenocosta": {
+        "name": "Breno Costa",
+        "active": false,
+        "image": "/images/team/brenocosta.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.2",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:brenoccs04@gmail.com"
+            }
+        ]
+    },
+    "athilaSantos": {
+        "name": "Áthila Santos",
+        "active": false,
+        "image": "/images/team/athilaSantos.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2021.2",
+            "joinPET": "2024",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:athila.silva@ufba.br    "
+            }
+        ]
+    },
+    "AnaClara": {
+        "name": "Ana Clara Coutinho",
+        "active": false,
+        "image": "/images/team/anaClara.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",       
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:anaclara.acoutinho@hotmail.com"
             }
         ]
     },
