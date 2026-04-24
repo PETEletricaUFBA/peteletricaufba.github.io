@@ -1,5 +1,5 @@
 ---
-title: "Manual do Calouro"
+title: "Manual do Calouro Completo em PDF"
 description: "Acesse o Manual do Calouro e comece sua jornada no Universitaria  com o pé direito"
 date: "2026-04-23"
 categories: 
