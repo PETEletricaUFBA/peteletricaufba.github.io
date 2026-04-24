@@ -229,3 +229,60 @@ div.scrollmenu a {
   background: #007bff; /* Bootstrap primary */
 }
 
+.card-manual {
+  display: block;
+  max-width: 750px;
+  width: 100%;
+  padding: 6px;
+  border-radius: 12px;
+  background: #fff;
+  text-decoration: none;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 12px 24px -6px rgba(45, 67, 121, 0.1);
+  transition: all 0.25s ease;
+}
+
+.card-manual:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-manual:active {
+  transform: scale(0.98);
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icone {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.texto {
+  flex: 1;
+  text-align: center;
+}
+
+.texto h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #000;
+}
+
+.texto p {
+  margin-top: 8px;
+  color: #6c757d;
+  font-size: 15px;
+}
+
+.card-manual:hover .icone {
+  transform: scale(1.08);
+  transition: 0.2s;
+}
+

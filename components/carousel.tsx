@@ -27,8 +27,8 @@ const Carousel = () => {
       text: '✨⚡ Manual do Calouro ✨⚡- O Manual do Calouro foi criado para te acompanhar nos primeiros passos da vida universitária, reunindo orientações essenciais, dicas práticas feita por quem tem experiência e já passou por esse caminho, para que você se sinta mais seguro, aproveite melhor as oportunidades e comece essa nova fase com confiança e entusiasmo!',
       type: 'image',
       image: imagemManualCalouro,
-      buttonText: 'Manual em PDF',
-      buttonLink: '/manual-calouro/3-Manual',
+      buttonText: 'Acesse já!',
+      buttonLink: '/manual-calouro',
     },
     {
       title: 'Participe das nossas aulas',
