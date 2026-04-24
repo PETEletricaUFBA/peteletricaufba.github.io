@@ -16,7 +16,6 @@ import imagemManualCalouro from '../public/images/carousel/manual-calouro.png';
 
 // Exemplo de vídeo local: coloque em /public/videos/
 // ex: /public/videos/minicursos.mp4
-const videoRetospct = '/videos/retrospectiva.mp4';
 
 const Carousel = () => {
   const swiperRef = useRef<any>(null);
@@ -81,28 +80,13 @@ const Carousel = () => {
                         height: '300px',
                       }}
                     >
-                      {slide.type === 'video' ? (
-                        <video
-                          src={slide.video}
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
-                          controls={false}
-                          style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'contain',
-                          }}
-                        />
-                      ) : (
-                        <Image
+                      {<Image
                           src={slide.image}
                           alt={slide.title}
                           layout="fill"
                           objectFit="contain"
                         />
-                      )}
+                      }
                     </div>
                   </div>
 
