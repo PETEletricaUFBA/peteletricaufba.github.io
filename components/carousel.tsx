@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 
 import imagemPetAulas from '../public/images/carousel/petAulas.png';
 import imagemEbookmulhers from '../public/images/carousel/mulherespoli.png';
+import imagemManualCalouro from '../public/images/carousel/manual-calouro.png';
 
 // Exemplo de vídeo local: coloque em /public/videos/
 // ex: /public/videos/minicursos.mp4
@@ -23,21 +24,12 @@ const Carousel = () => {
 
   const slides = [
     {
-      title: 'Retrospectiva 2025',
-      text: '✨⚡ Retrospectiva 2025 — PET Elétrica ⚡️✨ 2025 foi um ano muito incrível, marcado por muitas aventuras, desafios que viraram aprendizado, projetos que nos fizeram crescer e, principalmente, amizades que levaremos pra vida.',
-      type: 'video',
-      video: videoRetospct,
-      buttonText: 'Assista no Instagram',
-      buttonLink: 'https://www.instagram.com/peteletricaufba/reel/DTThqeYiaWn/',
-    },
-    {
-      title: 'Mulheres da Escola Politécnica',
-      text:
-        'Depois de muito trabalho e muito esforço, estamos oficialmente lançando o livro: Mulheres da Escola Politécnica da UFBA!',
+      title: 'Manual do Calouro',
+      text: '✨⚡ Manual do Calouro ✨⚡- O Manual do Calouro foi criado para te acompanhar nos primeiros passos da vida universitária, reunindo orientações essenciais, dicas práticas feita por quem tem experiência e já passou por esse caminho, para que você se sinta mais seguro, aproveite melhor as oportunidades e comece essa nova fase com confiança e entusiasmo!',
       type: 'image',
-      image: imagemEbookmulhers,
-      buttonText: 'Ebook aqui',
-      buttonLink: '/atividades/GPEF',
+      image: imagemManualCalouro,
+      buttonText: 'Manual em PDF',
+      buttonLink: '/manual-calouro/3-Manual',
     },
     {
       title: 'Participe das nossas aulas',
@@ -47,6 +39,15 @@ const Carousel = () => {
       buttonText: 'Vem aprender',
       buttonLink: '/cursos',
     },
+    {
+      title: 'Mulheres da Escola Politécnica',
+      text:
+        'Depois de muito trabalho e muito esforço, estamos oficialmente lançando o livro: Mulheres da Escola Politécnica da UFBA!',
+      type: 'image',
+      image: imagemEbookmulhers,
+      buttonText: 'Ebook aqui',
+      buttonLink: '/atividades/GPEF',
+    }
   ];
 
   return (
