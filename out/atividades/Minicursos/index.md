@@ -45,7 +45,7 @@ Impressão 3D:
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso2.jpg" alt="Foto do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Desenvolvimento de modelo 3D a ser impresso no minicurso.</figcaption>
-  </figure>>
+  </figure>
 
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso1.jpg" alt="Foto 2 do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
@@ -60,7 +60,7 @@ Prototipagem em Arduíno:
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso3.jpg" alt="Foto do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Montagem de protótipo arduíno com componentes na protoboard.</figcaption>
-  </figure>>
+  </figure>
 
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso4.jpg" alt="Foto 2 do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
@@ -68,29 +68,29 @@ Prototipagem em Arduíno:
   </figure>
 </div><br>
 <t style="color: #333; font-size: 20px; font-weight: bold; font-style: italic; text-align: left; display: block;">
-Curso de Edição de Vídeo com o Canva:
+Edição de Vídeo com o Canva:
   </t><br>
 <!-- espaço para uma figura -->
 <div style="display: flex; justify-content: center; gap: 20px;">
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso5.jpg" alt="Foto do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Registro do minicurso de edição de vídeo com o Canva.</figcaption>
-  </figure>>
+  </figure>
 </div><br>
 <t style="color: #333; font-size: 20px; font-weight: bold; font-style: italic; text-align: left; display: block;">
-Impressão 3D:
+Matlab:
   </t><br>
 <!-- espaço para uma figura -->
 <div style="display: flex; justify-content: center; gap: 20px;">
 <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso6.jpg" alt="Foto do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Registro do minicurso de Matlab.</figcaption>
-  </figure>>
+  </figure>
 
   <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso7.jpg" alt="Foto 2 do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Outro registro do minicurso de Matlab.</figcaption>
-  </figure>>
+  </figure>
 </div><br>
 <t style="color: #333; font-size: 20px; font-weight: bold; font-style: italic; text-align: left; display: block;">
 Minicurso de projetos elétricos:
@@ -100,5 +100,5 @@ Minicurso de projetos elétricos:
 <figure style="text-align: center; width: 45%;">
     <img src="/atividades/Minicursos/images/minicurso8.jpg" alt="Foto do sensor de temperatura e umidade" style="width: 100%; border-radius: 10px;">
     <figcaption style="font-style: italic; color: #555;">Registro do minicurso de Projetos elétricos.</figcaption>
-  </figure>>
+  </figure>
 </div><br><br>

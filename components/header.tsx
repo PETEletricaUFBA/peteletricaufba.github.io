@@ -4,8 +4,8 @@ import { useState, useEffect, useRef } from "react";
 
 const menu = [
   {
-    name: "Página Inicial",
-    link: "/"
+    name: "Manual do Calouro",
+    link: "/manual-calouro"
   },
   {
     name: "Blog",
@@ -99,13 +99,13 @@ function Header(): JSX.Element {
                   </a>
                   <ul className={`dropdown-menu ${ensinoDropdownActive ? 'show' : ''}`} aria-labelledby="navbarDropdownEnsino">
                     <li>
-                      <Link href="/cursos" passHref>
-                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Videoaulas</a>
+                      <Link href="/atividades/Minicursos" passHref>
+                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Minicursos</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/manual-calouro" passHref>
-                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Manual do Calouro</a>
+                      <Link href="/cursos" passHref>
+                        <a className="dropdown-item text-center" onClick={() => setEnsinoDropdownActive(false)}>Videoaulas</a>
                       </Link>
                     </li>
                   </ul>
