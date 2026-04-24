@@ -36,6 +36,31 @@ const Title = () => (
         <div className="container text-center">
             <h1 className="display-3">Manual da Engenharia Elétrica</h1>
         </div>
+        <div className="alinha-centro" style={{ marginTop: "40px" }}>
+            <a
+              href="/docs/livros/manual-calouro.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-manual"
+            >
+              <div className="conteudo">
+                
+                <img
+                  src="/images/manual/logo_manual_calouro.png"
+                  alt="Logo Manual"
+                  className="icone"
+                />
+
+                <div className="texto">
+                  <h3>Manual do Calouro Completo em PDF</h3>
+                  <p>
+                    Acesse o Manual do Calouro e comece sua jornada universitária com o pé direito!
+                  </p>
+                </div>
+              </div>
+            </a>
+
+        </div>
     </section>
 
 );

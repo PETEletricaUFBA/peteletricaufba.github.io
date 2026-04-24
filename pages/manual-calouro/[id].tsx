@@ -9,7 +9,6 @@ import NomMembersData from '../../data/nom-members.json';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import AbasMaterias from '../../public/manual-calouro/1-Disciplinas/resto';
 import AbasMatricula from '../../public/manual-calouro/2-Matricula/matricula';
-import AbasManual from '../../public/manual-calouro/3-Manual/manual';
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
@@ -67,7 +66,6 @@ export default function Post({ postData }: Props) {
           components={{
             AbasMaterias,
             AbasMatricula,
-            AbasManual,
           }}
 />
 
