@@ -38,7 +38,7 @@ const Title = () => (
         </div>
         <div className="alinha-centro" style={{ marginTop: "40px" }}>
             <a
-              href="/docs/livros/manual-calouro.pdf"
+              href="/docs/livros/manual-calouro-2.0.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="card-manual"
