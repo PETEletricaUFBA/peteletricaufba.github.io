@@ -1,6 +1,6 @@
 ---
-title: "Videoaulas Eletrônica Analógica"
-description: "Resoluções de questões da disciplina Eletrônica Analógica"
+title: "Eletrônica Analógica"
+description: "Videoaulas sobre Eletrônica Analógica"
 date: "2025-10-04"
 cover: images/analogica.png
 authors: 
