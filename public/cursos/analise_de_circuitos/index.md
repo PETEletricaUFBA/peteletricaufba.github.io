@@ -1,5 +1,5 @@
 ---
-title: "Videoaulas Análise de Circuitos I"
+title: "Análise de Circuitos I"
 description: "Videoaulas sobre Análise de Circuitos"
 date: "2025-08-14"
 cover: images/analiseDeCircuitos.png
