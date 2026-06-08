@@ -1,7 +1,7 @@
 ---
 title: "Sistemas lógicos"
 description: "Videoaulas sobre sistemas lógicos"
-date: "2026-06-18"
+date: "2026-06-08"
 cover: images/sislog.png
 authors: 
   - pabloAraujo
