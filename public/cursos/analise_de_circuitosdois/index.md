@@ -1,11 +1,13 @@
 ---
-title: "Sistemas lógicos"
-description: "Videoaulas sobre sistemas lógicos"
-date: "2026-06-18"
-cover: images/sislog.png
+title: "Análise de circuitos II"
+description: "Videoaulas sobre análise de circuitos II"
+date: "2025-08-14"
+cover: images/circuitos2.png
 authors: 
-  - pabloAraujo
-  - ryanTeixeira
+  - erickSampaio
+  - manuellaSoares
+  - pedroNogueira
+  - mariaClara
   
 type: "featured"
 ---
@@ -20,22 +22,20 @@ type: "featured"
 <div style="display: flex; color: #333; text-align: left;">
   <div style="flex: 1; padding: 10px;">
     <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
-      <li>Operações Básicas</li>
-      <li>Circuitos Lógicos e Expressões Booleanas</li>
-      <li>Teoremas Booleanos e De Morgan</li>
-      <li>Soma de Produtos e Simplificação de Circuitos Lógicos</li>
-      <li>Projeto de Circuitos Lógicos Combinacionais</li>
-      <li>Mapa de Karnaugh</li>
+      <li>Análise Nodal</li>
+      <li>Análise de Malha</li>
+      <li>Transformação de Fonte</li>
+      <li>Teorema da Superposição</li>
+      <li>Teorema de Thevénin</li>
     </ul>
   </div>
 
   <div style="flex: 1; padding: 10px;">
     <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
-      <li>Introdução aos Flip-Flops</li>
-      <li>Flip-Flops com Portas NOR</li>
-      <li>Sinais de Clock e Flip-Flops Sincronizados</li>
-      <li>Flip-Flop S-R e Detecção de Borda</li>
-      <li>Flip-Flops J-K, D e Entradas Assíncronas</li>
+      <li>Teorema de Norton</li>
+      <li>Máxima Transferência de Potência</li>
+      <li>Circuitos de Primeira e Segunda Ordem</li>
+      <li>Amplificadores Operacionais</li>
     </ul>
   </div>
 </div>
@@ -45,5 +45,6 @@ type: "featured"
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; padding: 10px; text-align: center;">
     <h3>Videoaulas</h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYGbjxQD51gjYouY4aWsCASi" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
+    <a href="https://www.youtube.com/watch?v=kIj6h46Fc5A&list=PLPYIiTqJVmYELwVbgnrtZgy5-wjzPcVoZ" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
+  
 </div>

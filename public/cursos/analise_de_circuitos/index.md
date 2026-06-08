@@ -1,6 +1,6 @@
 ---
 title: "Análise de circuitos I"
-description: "Videoaulas sobre análise de circuitos"
+description: "Videoaulas sobre análise de circuitos I"
 date: "2025-08-14"
 cover: images/analiseDeCircuitos.png
 authors: 
