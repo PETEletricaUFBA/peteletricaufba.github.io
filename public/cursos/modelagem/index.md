@@ -1,6 +1,6 @@
 ---
-title: "Modelagem e Sistemas dinâmicos"
-description: "Videoaulas sobre Análise de Circuitos"
+title: "Modelagem e sistemas dinâmicos"
+description: "Videoaulas sobre modelagem e sistemas dinâmicos"
 date: "2025-08-14"
 cover: images/modelagem.png
 authors: 

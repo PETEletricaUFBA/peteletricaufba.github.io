@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Bancada de potência"
+description: "Videoaulas sobre bancada de potência"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/bancada.png
 authors: 
   - erickSampaio
   - manuellaSoares

@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Microcontrolador PIC18F4550"
+description: "Videoaulas sobre microcontrolador PIC18F4550"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/micro.png
 authors: 
   - erickSampaio
   - manuellaSoares

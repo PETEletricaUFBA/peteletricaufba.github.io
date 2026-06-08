@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Processamento de dados"
+description: "Videoaulas sobre processamento de dados"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/pd.png
 authors: 
   - erickSampaio
   - manuellaSoares

@@ -1,6 +1,6 @@
 ---
-title: "Sinais e Sistemas I"
-description: "Videoaulas sobre Análise de Circuitos"
+title: "Sinais e sistemas I"
+description: "Videoaulas sobre sinais e sistemas I"
 date: "2025-08-14"
 cover: images/sinaisum.png
 authors: 

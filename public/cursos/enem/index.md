@@ -1,6 +1,6 @@
 ---
 title: "ENEM"
-description: "Videoaulas sobre Análise de Circuitos"
+description: "Videoaulas sobre ENEM"
 date: "2025-08-14"
 cover: images/enem.png
 authors: 

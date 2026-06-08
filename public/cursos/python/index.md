@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Curso de python"
+description: "Videoaulas sobre python"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/python.png
 authors: 
   - erickSampaio
   - manuellaSoares

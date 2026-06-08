@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Eletrônica digital"
+description: "Videoaulas sobre eletrônica digital"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/ed.png
 authors: 
   - erickSampaio
   - manuellaSoares

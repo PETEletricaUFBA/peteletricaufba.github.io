@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Termodinâmica"
+description: "Videoaulas sobre termodinâmica"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/termo.png
 authors: 
   - erickSampaio
   - manuellaSoares

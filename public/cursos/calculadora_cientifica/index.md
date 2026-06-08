@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Calculadora científica"
+description: "Videoaulas sobre calculadora científica"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/calccientifica.png
 authors: 
   - erickSampaio
   - manuellaSoares

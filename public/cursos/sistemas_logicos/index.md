@@ -1,8 +1,8 @@
 ---
-title: "Bancada de Potência"
-description: "Videoaulas sobre Análise de Circuitos"
+title: "Sistemas lógicos"
+description: "Videoaulas sobre sistemas lógicos"
 date: "2025-08-14"
-cover: images/bancada.png
+cover: images/sislog.png
 authors: 
   - erickSampaio
   - manuellaSoares

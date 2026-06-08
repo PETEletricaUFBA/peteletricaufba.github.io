@@ -1,6 +1,6 @@
 ---
 title: "Arduino"
-description: "Videoaulas sobre Análise de Circuitos"
+description: "Videoaulas sobre Arduino"
 date: "2025-08-14"
 cover: images/arduino.png
 authors: 

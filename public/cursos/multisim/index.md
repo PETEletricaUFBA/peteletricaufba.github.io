@@ -1,8 +1,8 @@
 ---
-title: "Cálculo A aplicando a física I"
-description: "Videoaulas sobre Cálculo A"
+title: "Multisim"
+description: "Videoaulas sobre multisim"
 date: "2025-08-14"
-cover: images/calculoa.png
+cover: images/multisim.png
 authors: 
   - erickSampaio
   - manuellaSoares
