@@ -1,13 +1,10 @@
 ---
 title: "Modelagem e sistemas dinâmicos"
 description: "Videoaulas sobre modelagem e sistemas dinâmicos"
-date: "2025-08-14"
+date: "2026-06-08"
 cover: images/modelagem.png
 authors: 
-  - erickSampaio
-  - manuellaSoares
-  - pedroNogueira
-  - mariaClara
+  - 
   
 type: "featured"
 ---
@@ -22,20 +19,17 @@ type: "featured"
 <div style="display: flex; color: #333; text-align: left;">
   <div style="flex: 1; padding: 10px;">
     <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
-      <li>Análise Nodal</li>
-      <li>Análise de Malha</li>
-      <li>Transformação de Fonte</li>
-      <li>Teorema da Superposição</li>
-      <li>Teorema de Thevénin</li>
+      <li>Introdução à Modelagem de Sistemas Dinâmicos</li>
+      <li>Modelagem de Motor CC</li>
+      <li>Linearização de Sistemas</li>
     </ul>
   </div>
 
   <div style="flex: 1; padding: 10px;">
     <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
-      <li>Teorema de Norton</li>
-      <li>Máxima Transferência de Potência</li>
-      <li>Circuitos de Primeira e Segunda Ordem</li>
-      <li>Amplificadores Operacionais</li>
+      <li>Aproximação de Padé</li>
+      <li>Sistemas de Primeira Ordem</li>
+      <li>Sistemas de Segunda Ordem</li>
     </ul>
   </div>
 </div>
@@ -45,6 +39,6 @@ type: "featured"
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; padding: 10px; text-align: center;">
     <h3>Videoaulas</h3>
-    <a href="https://www.youtube.com/watch?v=kIj6h46Fc5A&list=PLPYIiTqJVmYELwVbgnrtZgy5-wjzPcVoZ" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
+    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYEQRWg9vJb1aID8ji_NqAV5" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
   
 </div>
