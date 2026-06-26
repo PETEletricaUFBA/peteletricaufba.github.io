@@ -33,7 +33,7 @@ type: "featured"
 
 <div style="text-align: center; margin-top: 20px;">
   <h3 style="margin-bottom: 10px;">Videoaulas</h3>
-  <a href="https://youtu.be/9KTmYWliX2E?si=KRGwLcV0AR603eFw" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">
+  <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYH_u82FOhwI4T18udpdBsi-" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">
     Abrir no YouTube
   </a>
 </div>
