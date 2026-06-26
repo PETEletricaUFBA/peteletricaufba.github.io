@@ -2,9 +2,12 @@ import Social from "../data/social.json";
 import Link from 'next/link';
 import Logo from "../components/logo";
 
+import { format } from 'date-fns';
+
 let social = Social.social;
 
 const Footer = () => {
+    const ano = format(new Date(), 'yyyy');
     return (
         <footer className="bg-light section pb-0 pt-5">
             <div className="container">
@@ -48,7 +51,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-top border-default text-center py-4 mt-4">
-                    <small className="content">PET Elétrica UFBA | 2022</small>
+                    <small className="content">PET Elétrica UFBA | {ano}</small>
                 </div>
             </div>
         </footer>
