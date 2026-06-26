@@ -1,10 +1,11 @@
 ---
-title: "Videoaulas Eletrônica Analógica"
-description: "Resoluções de questões da disciplina Eletrônica Analógica"
-date: "2025-10-04"
+title: "Eletrônica Analógica"
+description: "Videoaulas sobre eletrônica analógica"
+date: "2026-06-08"
 cover: images/analogica.png
 authors: 
   - manuellaSoares
+  - marcoAntonio
   
 type: "featured"
 ---
@@ -17,9 +18,28 @@ type: "featured"
 
 ## O que você verá neste curso:
 
-<div style="display: flex; justify-content: center; gap: 60px; color: #333; margin-top: 10px; flex-wrap: wrap;">
-  <div style="flex: 0 0 auto; font-size: 20px; line-height: 1.8;">
-     <li>RESOLUÇÃO PROVA 1 2024.1</li> 
+<div style="display: flex; color: #333; text-align: left;">
+  <div style="flex: 1; padding: 10px;">
+    <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
+      <li>Prova 1 - 2024.1</li>
+      <li>Prova 1 - 2024.2</li>
+      <li>Prova 1 - 2025.1</li>
+      <li>Segunda Chamada da Prova 1 - 2024.1</li>
+      <li>Segunda Chamada da Prova 1 - 2024.2</li>
+      <li>Segunda Chamada da Prova 1 - 2025.1</li>
+    </ul>
+  </div>
+
+  <div style="flex: 1; padding: 10px;">
+    <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
+      <li>Prova 2 - 2024.1</li>
+      <li>Prova 2 - 2024.2</li>
+      <li>Prova 2 - 2025.1</li>
+      <li>Segunda Chamada da Prova 2 - 2024.2</li>
+      <li>Prova 3 - 2024.1</li>
+      <li>Prova 3 - 2024.2</li>
+      <li>Prova 3 - 2025.1</li>
+    </ul>
   </div>
 </div>
 
@@ -29,6 +49,6 @@ type: "featured"
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; padding: 10px; text-align: center;">
     <h3>Videoaulas</h3>
-    <a href="https://youtu.be/MYEixFykjgA?si=EF5apDwly_7C1YJ9" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
+    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYGTtSYjebXFmYGWobCdSmbs" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
   
 </div>
