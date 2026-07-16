@@ -21,33 +21,82 @@ type: "featured"
 "> &lt;
 </a>
 
+---
+
 ## Ondulatória
 
 ### O que você verá neste curso:
 
 <div style="display: flex; color: #333; text-align: left;">
+
   <div style="flex: 1; padding: 10px;">
-    <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
+    <ul style="list-style-type: disc; padding-left:20px; margin:0;">
       <li>Definição e Classificação de Ondas</li>
       <li>Elementos de uma Onda Periódica</li>
     </ul>
   </div>
 
   <div style="flex: 1; padding: 10px;">
-    <ul style="list-style-type: disc; list-style-position: outside; padding-left: 20px; margin: 0;">
+    <ul style="list-style-type: disc; padding-left:20px; margin:0;">
       <li>Ondas Eletromagnéticas</li>
     </ul>
   </div>
+
 </div>
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYFgmY6tS2H6WvOVIGWJJ3mN" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Ondulatória voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYFgmY6tS2H6WvOVIGWJJ3mN"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_ONDULATORIA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
 
 ---
 
@@ -71,12 +120,57 @@ type: "featured"
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYHclLhXHecJf5AN3z4cRGce" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Matemática voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYHclLhXHecJf5AN3z4cRGce"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_MATEMATICA_ENEM"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
 
 ---
 
@@ -100,12 +194,57 @@ type: "featured"
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYEeNH3QwljBAI4EsLRblACh" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Cinemática voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYEeNH3QwljBAI4EsLRblACh"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_CINEMATICA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
 
 ---
 
@@ -131,12 +270,57 @@ type: "featured"
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYFBmFFcQ0nS_F8KWnfbFuR_" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Geometria voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYFBmFFcQ0nS_F8KWnfbFuR_"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_GEOMETRIA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
 
 ---
 
@@ -154,12 +338,57 @@ type: "featured"
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYEw2SYHwOaqsPjDnHYXEgMM" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Funções voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYEw2SYHwOaqsPjDnHYXEgMM"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_FUNCOES"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
 
 ---
 
@@ -185,9 +414,54 @@ type: "featured"
 
 ### Acompanhe a nossa playlist
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1; padding: 10px; text-align: center;">
-    <h3></h3>
-    <a href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYGiN3fQioynAJq__wvdBsCH" class="btn btn-primary espaco-abaixo btn-sm" target="_blank">Abrir no YouTube</a>
-  </div>
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta playlist você encontrará videoaulas sobre Biologia, Química, Física e Matemática voltadas para o ENEM, apresentando os principais conceitos cobrados na prova e exercícios comentados para auxiliar na fixação do conteúdo.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:35px;">
+  <a
+    href="https://www.youtube.com/playlist?list=PLPYIiTqJVmYGiN3fQioynAJq__wvdBsCH"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#CC0000;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    ▶ Assistir Playlist
+  </a>
 </div>
+
+### Material de Apoio
+
+<p style="color:#333; text-align:justify; margin-bottom:25px;">
+Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, incluindo listas de exercícios, resumos, questões do ENEM e outros materiais complementares.
+</p>
+
+<div style="text-align:center; margin-top:10px; margin-bottom:10px;">
+  <a
+    href="LINK_DRIVE_PETNOTA1000"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+      display:inline-block;
+      background-color:#001D7E;
+      color:white;
+      padding:6px 14px;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    ">
+    📂 Material de Apoio
+  </a>
+</div>
+
+<p style="text-align:center; color:#666; font-size:14px;">
+Os materiais poderão receber atualizações ao longo do tempo.
+</p>
