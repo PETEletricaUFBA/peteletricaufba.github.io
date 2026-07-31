@@ -77,7 +77,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_ONDULATORIA"
+    href=https://drive.google.com/drive/folders/1S0blrsSdCYiPFPsj2AWb4DumWmClADEf?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="
@@ -151,7 +151,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_MATEMATICA_ENEM"
+    href=https://drive.google.com/drive/folders/1AaOMgpgMKZL9ikSYal-aO-2Re_NQMDhh?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="
@@ -225,7 +225,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_CINEMATICA"
+    href=https://drive.google.com/drive/folders/1MMJRx4UWsxnuBXk3oViVNiqwtM0rzc23?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="
@@ -301,7 +301,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_GEOMETRIA"
+    href=https://drive.google.com/drive/folders/1NdSNrTzpjRUld01PAAJ2MCZ_Z5qxoI7X?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="
@@ -369,7 +369,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_FUNCOES"
+    href=https://drive.google.com/drive/folders/1oCXC6M0QS-zSEWigIOyB3yppuQUGRHFo?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="
@@ -445,7 +445,7 @@ Nesta pasta estão reunidos os materiais utilizados durante as videoaulas, inclu
 
 <div style="text-align:center; margin-top:10px; margin-bottom:10px;">
   <a
-    href="LINK_DRIVE_PETNOTA1000"
+    href=https://drive.google.com/drive/folders/1v3hWikv8iVpuPE8XjbBblHZT3IY1jueK?usp=sharing
     target="_blank"
     rel="noopener noreferrer"
     style="

@@ -72,7 +72,7 @@ Nesta pasta estão disponíveis os materiais utilizados durante a produção das
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-  <a href="LINK_DRIVE_MODELAGEM"
+  <a href=https://drive.google.com/drive/folders/1Ou9D5izAW1RzCdrPMKMa1HyPIqUMfZx_?usp=sharing
      target="_blank"
      rel="noopener noreferrer"
      style="

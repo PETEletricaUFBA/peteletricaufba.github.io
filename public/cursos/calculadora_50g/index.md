@@ -94,7 +94,7 @@ Nesta página você encontrará os materiais utilizados durante o minicurso, inc
 
 <div style="text-align:center; margin-top:10px;">
 
-  <a href="LINK_DO_GOOGLE_DRIVE_HP50G"
+  <a href=https://drive.google.com/drive/folders/1G8Zd6AbPP77oo0W-godt-sYlnlMwq02W?usp=sharing
      target="_blank"
      rel="noopener noreferrer"
      style="

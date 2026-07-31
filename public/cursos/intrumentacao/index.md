@@ -70,7 +70,7 @@ Nesta pasta estão disponíveis os materiais utilizados durante a produção das
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-  <a href="LINK_DRIVE_INSTRUMENTACAO"
+  <a href=https://drive.google.com/drive/folders/16hSVgT3Esig05v5ddSjCu7MxwhAkh0sj?usp=sharing
      target="_blank"
      rel="noopener noreferrer"
      style="

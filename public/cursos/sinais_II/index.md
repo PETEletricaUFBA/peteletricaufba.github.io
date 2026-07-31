@@ -73,7 +73,7 @@ Nesta pasta estão disponíveis os materiais utilizados durante a produção das
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-  <a href="LINK_DO_GOOGLE_DRIVE_SINAIS2"
+  <a href=https://drive.google.com/drive/folders/1CM2tC55i1sIFRb-1aAL0X1aqj63ur3dR?usp=sharing
      target="_blank"
      rel="noopener noreferrer"
      style="

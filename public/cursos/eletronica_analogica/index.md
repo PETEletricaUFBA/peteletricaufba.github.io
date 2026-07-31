@@ -6,7 +6,9 @@ cover: images/analogica.png
 authors:
   - manuellaSoares
   - marcoAntonio
-
+  - gabrielazevedo
+  - raulsantos
+  
 type: "featured"
 ---
 
@@ -81,7 +83,7 @@ Nesta pasta estão disponíveis as provas utilizadas durante as resoluções, li
 </p>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-  <a href="LINK_DO_GOOGLE_DRIVE_ELETRONICA_ANALOGICA"
+  <a href=https://drive.google.com/drive/folders/1n6fa3BxCfMqDB0QVO8lIpHyIWHhXlMW6?usp=sharing
      target="_blank"
      rel="noopener noreferrer"
      style="
