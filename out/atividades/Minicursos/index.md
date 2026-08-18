@@ -81,7 +81,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="https://dontpad.com/teste%20site%20pet" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href="https://peteletricaufba.github.io/atividades/LINK_DO_DRIVE_ARDUINO" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>

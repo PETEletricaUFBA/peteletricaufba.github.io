@@ -14,16 +14,16 @@ status: "ON"
 
 <!--  o conterúdo começa a partir daqui -->
 <p style="color: #333; text-align: justify;">
-  A Atividade Pesquisas Individuais e Coletivas tem como objetivo proporcionar aos petianos a
-  oportunidade de desenvolver pesquisas em grupo (de 2 a 3 alunos) ou sozinho dentro do ambiente PET.
-   Devem acontecer em primeira instância orientadas por um professor da área escolhida pelos alunos
-  envolvidos. Como produto final mínimo, a atividade deve apresentar um artigo publicado expondo os
-  resultados da pesquisa. 
+  A Atividade Pesquisas Individuais e Coletivas tem como objetivo proporcionar aos petianos a oportunidade de desenvolver pesquisas em grupo (de 2 a 3 alunos) ou sozinho dentro do ambiente PET. Devem acontecer em primeira instância orientadas por um professor da área escolhida pelos alunos envolvidos. Como produto final mínimo, a atividade deve apresentar um artigo publicado expondo os resultados da pesquisa. 
 </p>
 <p style="color: #333; text-align: justify;">
-  O objetivo desta atividade é inserir os petianos na pesquisa de temas relacionados ao campo da  Engenharia Elétrica sobre os quais tenham interesses em comum, buscando entender, estudar e
-  aplicar tecnologias da área, adquirindo conhecimento aprofundado sobre a área estudada. Como
-  subproduto, espera-se um artigo escrito e publicado pelo grupo.
+  O objetivo desta atividade é inserir os petianos na pesquisa de temas relacionados ao campo da  Engenharia Elétrica sobre os quais tenham interesses em comum, buscando entender, estudar e aplicar tecnologias da área, adquirindo conhecimento aprofundado sobre a área estudada. Como subproduto, espera-se um artigo escrito e publicado pelo grupo.
+</p>
+<p style="color: #333; text-align: justify;">
+  Alguns exemplos de pesquisas em desenvolvimento em 2026 é a pesquisa de receptação de imagens metereológicas do satélite NOAA/Meteor, Pesquisa de desenvolvimento de um display braile, desenvolvimento de uma inteligência artificial com visão computacional capaz de identificar sinais de libras a partir de imagens ao vivo produzida por uma webcam integrada. Por último temos uma pesquisa de desenvolvimento de um sistema de controle dinâmico de vôo de um dispositivo quadrirotor (Drone).
+</p>
+<p style="color: #333; text-align: justify;">
+  Abordaremos mais detalhadamente sobre cada uma delas abaixo.
 </p><br>
 <t style="color: #333; font-size: 29px; font-weight: bold; font-style: italic;">Estação de Recepção de Imagens Meteorológicas de Satélites NOAA</t><br><br>
 <p style="color: #333; text-align: justify;">
