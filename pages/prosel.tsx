@@ -56,8 +56,11 @@ const About = () => (
                             <li>Ser brasileiro nato ou naturalizado;</li>
                             <li>Ter disponibilidade para dedicar 20 (vinte) horas semanais ao programa, 
                             participando com empenho e dedicação em todas as suas atividades; </li>
-                            <li>Não ser bolsista de qualquer outro programa que impeça o acúmulo de bolsas.</li>
-                        </ol>
+                            <li>Não ser bolsista de qualquer outro programa que impeça o acúmulo de bolsas;</li>
+                        </ol><br></br>
+                        <p>
+                            <strong>Todo candidato inscrito na categoria de cotas raciais deverá dispor durante a etapa de verificação de documentos o comprovante da etapa de heteroidentificação feita pela universidade durante as etapas de admissão na UFBA.</strong>
+                        </p>
                         <p></p>
 
 
