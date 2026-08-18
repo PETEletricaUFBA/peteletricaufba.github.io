@@ -1,10 +1,10 @@
 {
     "links": [
         {
-            "name": "Edital - Retificado!",
+            "name": "Edital",
             "icon": "fas fa-journal-whills",
             "content": "Todas as informações oficiais estarão neste importante documento. Assim, é de obrigatoriedade a leitura e o entendimento completo para uma participação saudável no processo seletivo.",
-            "link": "/docs/prosel/PS_20261_edital_assinado_v2.pdf"
+            "link": "/docs/prosel/PS_20262_edital_assinado.pdf"
         },
         {
             "name": "Formulario de inscrição",
@@ -16,40 +16,40 @@
             "name": "Instruções",
             "icon": "fas fa-tasks",
             "content": "Esse documento apresenta as instruções para a elaboração da Carta de Motivação e da Proposta de Atividade, descritas no Edital para Seleção do PET Elétrica UFBA.",
-            "link": "/docs/prosel/PS_20261_instrucoes_carta.pdf"
+            "link": "/docs/prosel/PS_20262_instrucoes_carta.pdf"
         }
     ],
     "calendar": [
         {
-            "date": "25/02/2026",
+            "date": "24/08/2026",
             "description": "Abertura das inscrições."
         },
         {
-            "date": "25/03/2026",
+            "date": "11/09/2026",
             "description": "Último dia de inscrições."
         },
         {
-            "date": "Até 27/03/2026",
+            "date": "Até 12/09/2026",
             "description": "Homologação das inscrições e resultado da etapa 1"
         },
         {
-            "date": "30/03/2026",
+            "date": "15/09/2026",
             "description": "Dinâmica em grupo (Presencial)."
         },
         {
-            "date": "31/03/2026",
+            "date": "15/09/2026",
             "description": "Entrevista individual com o grupo PET Elétrica (Presencial)."
         },
         {
-            "date": "01/04/2026",
+            "date": "16/09/2026",
             "description": "Entrevista individual com a comissão de seleção (Presencial)."
         },
         {
-            "date": "Até 05/04/2026",
+            "date": "Até 21/09/2026",
             "description": "Divulgação do resultado preliminar."
         },
         {
-            "date": "Até 08/04/2026",
+            "date": "Até 24/09/2026",
             "description": "Divulgação do resultado final."
         }   
     ],
@@ -57,12 +57,12 @@
         {
             
             "stage": "Inscrições Homologadas",
-            "link": "/docs/prosel/PS_20261_inscricoes_homologadas.pdf"
+            "link": "/docs/prosel/PS_20262_inscricoes_homologadas.pdf"
         },
         {
             
             "stage": "Resultado Final",
-            "link": "/docs/prosel/PS_20261_resultado_final.pdf"
+            "link": "/docs/prosel/PS_20262_resultado_final.pdf"
         }
     ]
     
