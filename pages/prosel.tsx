@@ -11,7 +11,6 @@ const Prosel = () => {
             <Title />
             <About />
             <Links />
-            <Resultados />
             <Calendar />
         </Layout>
     );
@@ -59,7 +58,7 @@ const About = () => (
                             <li>Não ser bolsista de qualquer outro programa que impeça o acúmulo de bolsas;</li>
                         </ol><br></br>
                         <p>
-                            <strong>Todo candidato inscrito na categoria de cotas raciais deverá dispor durante a etapa de verificação de documentos o comprovante da etapa de heteroidentificação feita pela universidade durante as etapas de admissão na UFBA.</strong>
+                            <strong> Candidatos(as) inscritos(as) nas categorias de cotas deverão apresentar durante a etapa de verificação de documentos os comprovantes que demonstrem o direito a concorrer às vagas reservadas para cotistas, como Resultado da Avaliação Médica - Cota PCD, Resultado do Procedimento de Heteroidentificação ou Resultado da Análise Documental.</strong>
                         </p>
                         <p></p>
 
