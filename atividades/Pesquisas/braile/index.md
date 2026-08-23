@@ -1,0 +1,37 @@
+---
+title: "Display Braille"
+description: "Pesquisa de uma solução tecnológica de baixo custo para utilização principalmente na educação básica com o intuito de difundir o acesso a conteúdos digitais por pessoas cegas."
+cover: "images/logo_braile.png"
+---
+
+<!-- Conteúdo da página logo abaixo -->
+
+<p style="color: #333; text-align: justify;">
+O sistema Braille é indispensável para a alfabetização de crianças com deficiência visual, permitindo o acesso tátil ao alfabeto, à escrita e a símbolos matemáticos e científicos. Os displays Braille eletrônicos, que utilizam células reconfiguráveis, representam uma alternativa aos livros impressos em relevo — volumosos, pesados e de difícil obtenção —, mas seu custo comercial, na faixa de milhares de dólares, inviabiliza a adoção em escolas. Este projeto tem como objetivo desenvolver uma célula Braille eletrônica acessível e de baixo custo, empregando microcontrolador ESP32, micro servomotores e estrutura em impressão 3D, com foco na aplicação educacional e na reprodutibilidade da solução.
+</p>
+<p style="color: #333; text-align: justify;">
+  O trabalho iniciou-se com uma revisão bibliográfica sobre a educação de pessoas com deficiência visual, o sistema Braille e as tecnologias assistivas disponíveis, seguida do projeto conceitual, no qual foram definidos o hardware e a interface de comunicação. Para o acionamento dos pinos táteis adotou-se o micro servomotor SG90, que reúne precisão de posicionamento, tamanho compacto, baixo consumo e custo reduzido, sendo utilizadas seis unidades por célula, uma para cada ponto. Como unidade de controle, optou-se pelo ESP32, sobretudo, pelo módulo Wi-Fi integrado, que dispensa adaptadores externos e reduz o espaço interno ocupado pelo conjunto. O dimensionamento dos pinos e do espaçamento entre eles seguiu as proporções do padrão de escrita Braille, em conformidade com a norma ABNT NBR 9050.
+</p>
+<p style="color: #333; text-align: justify;">
+ A comunicação constitui um ponto central do projeto, por permitir que o dispositivo seja móvel e independente de um computador durante o uso. O ESP32 foi configurado como Access Point, criando uma rede local própria e hospedando uma página web na qual o usuário digita a palavra a ser exibida, sem necessidade de roteador externo. O código de controle converte cada caractere na combinação de pontos correspondente e aciona os atuadores, com tempo de exibição configurável para acompanhar a evolução da leitura do aluno. A estrutura foi modelada em 3D, contemplando uma tampa perfurada para a saída dos pinos táteis, e um compartimento para os demais componentes do conjunto. Como o acionamento simultâneo dos seis servomotores pode gerar picos de corrente superiores a 2 A, foi incorporado ao circuito um regulador de tensão com capacidade de até 3 A, garantindo alimentação estável e protegendo os componentes mais sensíveis.
+</p>
+<!-- espaço para imagem -->
+<div style="text-align:center; margin: 20px 0;">
+<img src="braile/images/braile1.jpeg" alt="Foto do modelo drone flix de referência do projeto" style="width:100%; max-width:650px; border-radius: 10px;">
+<p style="font-style:italic; color:#555;">Disposição Universal dos 63 Sinais Simples do Sistema Braille. Fonte: Fonte: BRASIL-SEESP-MEC, 2002, p. 23.</p>
+</div>
+
+<!-- espaço para imagem com corte de altura e centralização -->
+<div style="text-align:center; margin: 20px 0; max-width: 650px; margin-left: auto; margin-right: auto; overflow: hidden; border-radius: 10px;">
+  <img 
+    src="braile/images/braile2.jpeg" 
+    alt="Legenda da imagem 2" 
+    style="width: 100%; height: 500px; object-fit: cover; object-position: center; display: block;">
+</div>
+<p style="text-align:center; font-style:italic; color:#555; max-width: 650px; margin-left: auto; margin-right: auto;">
+  Protótipo final montado, com os seis servo motores e o conjunto de pinos táteis integrados a estrutura impressa em 3D.
+</p>
+
+<p style="color: #333; text-align: justify;">
+   O protótipo foi montado e levado a campo no Instituto de Cegos da Bahia, onde sua utilização foi validada e o grupo recebeu retornos dos usuários e educadores da instituição, apontando caminhos de aprimoramento para as próximas versões do dispositivo.
+</p>
