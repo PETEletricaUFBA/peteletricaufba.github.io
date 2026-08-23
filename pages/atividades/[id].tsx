@@ -6,11 +6,13 @@ import BlogSignature from '../../components/blogSignature';
 import Image from '../../lib/Image';
 import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
+import PesquisasCards from '../../components/pesquisasCards';
+import { getPesquisas, Pesquisa } from '../../lib/pesquisas';
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
 
-export default function Post({ postData }: {
+export default function Post({ postData, pesquisas }: {
     postData: {
         id: string;
         contentHtml: string;
@@ -18,7 +20,8 @@ export default function Post({ postData }: {
         link: string;
         title: string;
         status: string;
-    }
+    },
+    pesquisas: Pesquisa[];
 }): JSX.Element {
     return (
         <Layout>
@@ -26,7 +29,7 @@ export default function Post({ postData }: {
                 <title>{postData.title}</title>
             </Head>
 
-            <Content postData={postData} />
+            <Content postData={postData} pesquisas={pesquisas} />
 
         </Layout>
 
@@ -34,7 +37,7 @@ export default function Post({ postData }: {
 }
 
 
-function Content({ postData }: {
+function Content({ postData, pesquisas }: {
     postData: {
         id: string;
         contentHtml: string;
@@ -42,7 +45,8 @@ function Content({ postData }: {
         link: string;
         title: string;
         status: string;
-    }
+    },
+    pesquisas: Pesquisa[];
 }) {
     return (
         <div className="container post text-center">
@@ -55,6 +59,8 @@ function Content({ postData }: {
                 </div>*/}
 
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
+                {postData.id === 'Pesquisas' && <PesquisasCards pesquisas={pesquisas} />}
 
             </div>
         </div>
@@ -74,6 +80,7 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
     return {
         props: {
             postData,
+            pesquisas: params.id === 'Pesquisas' ? getPesquisas() : [],
         },
     };
 }
