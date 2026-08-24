@@ -22,6 +22,3 @@ status: "ON"
 <p style="color: #333; text-align: justify;">
   Alguns exemplos de pesquisas em desenvolvimento em 2026 é a pesquisa de receptação de imagens metereológicas do satélite NOAA/Meteor, Pesquisa de desenvolvimento de um display braile, desenvolvimento de uma inteligência artificial com visão computacional capaz de identificar sinais de libras a partir de imagens ao vivo produzida por uma webcam integrada. Por último temos uma pesquisa de desenvolvimento de um sistema de controle dinâmico de vôo de um dispositivo quadrirotor (Drone).
 </p>
-<p style="color: #333; text-align: justify;">
-  Abordaremos mais detalhadamente cada pesquisa nos cards abaixo.
-</p>

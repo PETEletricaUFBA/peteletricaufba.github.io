@@ -1,10 +1,11 @@
 ---
 title: "Estação de Recepção de Imagens Meteorológicas de Satélites NOAA"
 description: "Desenvolvimento de uma estação acessível para receber e processar imagens meteorológicas dos satélites NOAA."
-cover: "images/logo_pesquisa.png"
+cover: "images/logo_satelite.png"
 ---
 
-<t style="color: #333; font-size: 29px; font-weight: bold; font-style: italic;">Estação de Recepção de Imagens Meteorológicas de Satélites NOAA</t><br><br>
+<!-- Conteúdo da página logo abaixo -->
+
 <p style="color: #333; text-align: justify;">
   A recepção de imagens meteorológicas de satélites é uma ferramenta essencial para o monitoramento ambiental e a previsão do tempo. No entanto, os sistemas comerciais disponíveis costumam ser caros e complexos. Este projeto tem como objetivo desenvolver uma solução acessível e portátil para receber imagens transmitidas pelos satélites NOAA, utilizando tecnologias de baixo custo, como Rádio Definido por Software (SDR) e antenas sintonizadas para a faixa de 137 MHz, conectadas a computadores. A proposta adapta soluções existentes, priorizando simplicidade, reprodutibilidade e aplicação educacional.
 </p>
@@ -16,14 +17,14 @@ cover: "images/logo_pesquisa.png"
 </p>
 <!-- espaço para imagem -->
 <div style="text-align:center; margin: 20px 0;">
-<img src="images/antena 2.png" alt="Legenda da imagem 1" style="width:100%; max-width:800px; border-radius: 10px;">
+<img src="satelite/images/antena 2.png" alt="Legenda da imagem 1" style="width:100%; max-width:800px; border-radius: 10px;">
 <p style="font-style:italic; color:#555;">Modelagem 3D da antena e propriedades. Feito no Solidworks.</p>
 </div>
 <!-- espaço para imagem -->
 <div style="text-align:center; margin: 20px 0;">
-<img src="images/antena 1.png" alt="Legenda da imagem 2" style="width:100%; max-width:800px; border-radius: 10px;">
+<img src="satelite/images/antena 1.png" alt="Legenda da imagem 2" style="width:100%; max-width:800px; border-radius: 10px;">
 <p style="font-style:italic; color:#555;">Resultados da simulação da antena QFH no software 4NEC2, mostrando parâmetros elétricos, impedância, eficiência e o diagrama de radiação no plano vertical para operação em 137,5 MHz.</p>
 </div>
 <p style="color: #333; text-align: justify;">
   Atualmente, o projeto encontra-se na fase de testes de campo, avaliando o desempenho do sistema em condições reais e implementando melhorias na antena, incluindo o uso de amplificadores para otimização do sinal.  	A conclusão resultará em um sistema funcional e acessível para recepção de imagens meteorológicas, contribuindo para democratizar o acesso a dados ambientais e fomentar o desenvolvimento técnico de estudantes e entusiastas da área.
-</p><br><br>
+</p>
