@@ -14,23 +14,47 @@ status: "ON"
 
 <!--  o conterúdo começa a partir daqui -->
 <p style="color: #333; text-align: justify;">
-  A atividade Comunicação, Visibilidade e Produção visa unificar a administração dos canais de comunicação vinculados ao PET Elétrica: Desenvolvimento WEB (site), redes sociais e e-mail, além dos meios de comunicação física - cartazes, panfletos e banners. Estabelecer e manter ativa a comunicação e integração do grupo com o público de dentro e de fora da Universidade e unificar a produção audiovisual do grupo. Os seguintes recursos são utilizados pelo grupo PET Elétrica: site do PET, que é um meio de divulgação do trabalho realizado pelo grupo; o perfil no Instagram, onde são divulgadas atividades, eventos e assuntos de relevância para o grupo e a comunidade externa; Recepção de calouros.
+  A atividade de Comunicação e Visibilidade tem como principal objetivo unificar e organizar os diferentes canais de comunicação vinculados ao PET Elétrica UFBA, abrangendo as redes sociais, como Instagram e YouTube, o e-mail institucional, a produção de materiais visuais físicos, como cartazes, panfletos, banners e brindes, além da cobertura e divulgação das atividades e eventos realizados pelo grupo. Essas ações contribuem para fortalecer a comunicação e a integração entre os integrantes do PET, a comunidade acadêmica e o público externo à Universidade. Para a realização dessas atividades, são utilizadas diferentes ferramentas, tanto para a produção gráfica quanto para a divulgação dos materiais desenvolvidos pelo grupo, contribuindo para a manutenção da identidade e da organização visual do PET Elétrica.
 </p>
+
 <p style="color: #333; text-align: justify;">
-  O objetivo desta atividade é difundir toda a produção de materiais do grupo, seja técnica ou cultural, para o público em geral, assim como organizar, planejar e administrar site e redes sociais vinculadas ao PET Elétrica. Esta tarefa tem o intuito de manter atualizadas as informações e materiais de divulgação úteis tanto para discentes e docentes do curso de Engenharia Elétrica, como para o público externo ao Departamento de Engenharia Elétrica e de Computação ou mesmo à Universidade.
-</p><br><br>
+  <strong>Instagram</strong> é utilizado pelo PET Elétrica como um dos principais canais de divulgação de suas atividades, eventos, projetos e demais ações. A plataforma permite manter a comunidade acadêmica e o público externo informados sobre as iniciativas desenvolvidas e os resultados obtidos pelo grupo.
+</p>
+
+<p style="color: #333; text-align: justify;">
+  <strong>Gmail</strong> é utilizado como ferramenta de comunicação institucional entre o PET Elétrica e outras entidades, instituições e indivíduos. Por meio do e-mail, são realizados contatos, encaminhamentos e comunicações relacionadas às atividades, parcerias e ações desenvolvidas pelo grupo.
+</p>
+
+<p style="color: #333; text-align: justify;">
+  <strong>Canva</strong> é utilizado como principal ferramenta para a criação e edição dos materiais gráficos produzidos pelo PET. A plataforma auxilia na elaboração de cartazes, banners, panfletos e publicações para as redes sociais, além de disponibilizar diferentes recursos que contribuem para a padronização e organização da identidade visual do grupo.
+</p>
+
+<p style="color: #333; text-align: justify;">
+  Como parte dessas atividades, o constante uso do Canva e o aperfeiçoamento dos conhecimentos dos petianos na utilização da ferramenta possibilitaram a oferta de um minicurso de Canva para edição de vídeo durante a Poli-Acta’25, Edição Primavera. A atividade possibilitou o compartilhamento de conhecimentos sobre produção e edição de materiais audiovisuais com os participantes, contribuindo para a disseminação dos conhecimentos desenvolvidos pelos integrantes do grupo.
+</p>
+
+<br><br>
 <!-- espaço para duas figuras lado a lado -->
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <figure style="text-align: center; width: 45%;">
-    <img src="/atividades/Comunicação-e-Visibilidade/images/cev1.png" alt="Error" style="width: 100%; border-radius: 10px;">
-    <figcaption style="font-style: italic; color: #555;">Folders desenvolvidos pela equipe de Comunicação e Visbilidade (C&V) do PET ELétrica UFBA.</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <figure style="text-align: center; width: 36%;">
+    <img src="/atividades/Comunicação-e-Visibilidade/images/cev1.jpg"
+         alt="Folders desenvolvidos pelo PET Elétrica UFBA"
+         style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">
+      Brindes desenvolvidos pela equipe de Comunicação e Visibilidade (C&V) para o evento EPUFBA de Portas Abertas.
+    </figcaption>
   </figure>
 
-  <figure style="text-align: center; width: 45%;">
-    <img src="/atividades/Comunicação-e-Visibilidade/images/cev2.jpg" alt="Error" style="width: 100%; border-radius: 10px;">
-    <figcaption style="font-style: italic; color: #555;">Banner desenvolvido pela equipe de C&V.</figcaption>
+  <figure style="text-align: center; width: 36%;">
+    <img src="/atividades/Comunicação-e-Visibilidade/images/cev2.png"
+         alt="Banner desenvolvido pela equipe de Comunicação e Visibilidade"
+         style="width: 100%; border-radius: 10px;">
+    <figcaption style="font-style: italic; color: #555;">
+      Cartaz desenvolvido pela equipe de C&V.
+    </figcaption>
   </figure>
-</div><br><br>
+</div>
+<br><br>
 
 <br>
 <div>

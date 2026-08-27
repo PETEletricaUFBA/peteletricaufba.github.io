@@ -8,7 +8,7 @@ import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import AbasMaterias from '../../public/manual-calouro/1-Disciplinas/resto';
-import AbasMatricula from '../../public/manual-calouro/2-Matricula/matricula';
+import AbasMatricula from '../../public/manual-calouro/4-Matricula/matricula';
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
