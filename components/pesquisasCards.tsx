@@ -25,8 +25,8 @@ export default function PesquisasCards({ pesquisas }: { pesquisas: Pesquisa[] })
                 >
                   <div className="row no-gutters h-100 align-items-start">
                     <div className="col-12 manualhome">
-                      <div style={{ position: 'relative', height: '110px', margin: '8px' }}>
-                        <Image src={pesquisa.image} alt="" layout="fill" objectFit="contain" />
+                      <div style={{ position: 'relative', height: '140px', margin: '6px' }}>
+                        <Image src={pesquisa.image} alt="" layout="fill" objectFit="contain"style={{ transform: 'scale(2)' }}/>
                       </div>
                     </div>
                     <div className="col-12">
