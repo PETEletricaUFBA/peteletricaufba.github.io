@@ -91,7 +91,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Apresentação dos conceitos básicos de eletrônica e programação embarcada por meio do desenvolvimento de projetos utilizando a plataforma Arduino.
+  Introdução à programação e prototipagem com Arduino, abordando conceitos fundamentais como variáveis, estruturas condicionais, funções, pinos digitais, comunicação serial e utilização de bibliotecas. De forma prática, os participantes desenvolveram um sensor de proximidade com sensor ultrassônico, LEDs e buzzer, explorando a integração entre programação e eletrônica para interpretar dados de sensores e controlar componentes de um circuito.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -121,7 +121,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Capacitação voltada à produção e edição de conteúdos audiovisuais utilizando as ferramentas disponíveis na plataforma Canva.
+  Capacitação em edição de vídeos utilizando o Canva, abordando ferramentas para cortes, aplicação de efeitos e transições, criação de capas e personalização dos conteúdos para uma produção mais dinâmica e atrativa.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -168,7 +168,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Fundamentos da elaboração de projetos elétricos residenciais e comerciais com auxílio de softwares utilizados na área.
+  Introdução à elaboração de projetos elétricos residenciais e comerciais, abordando conceitos básicos de instalações elétricas, representação em planta baixa e fundamentos das normas da área. O minicurso também apresenta a utilização do AutoCAD para elaboração de projetos e ferramentas para dimensionamento de cabos e disjuntores, balanceamento de fases e análise de quadros de distribuição.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">

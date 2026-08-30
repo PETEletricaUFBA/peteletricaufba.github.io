@@ -81,7 +81,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="https://peteletricaufba.github.io/atividades/LINK_DO_DRIVE_ARDUINO" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1B-6diOtEc-iUpkK1vbPT4aPU7Oy3Xyj4?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -111,7 +111,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_ARDUINO" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1Cpzkl0JySal9diVTcfiuTh6ZUM2p7Tb7?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -132,7 +132,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_CANVA" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1iQhr6bKyMXASkQ-k_68H3Ip93xTPCuaO?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -158,7 +158,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_MATLAB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1cuAtQylw1TIsiKGC3wBV-9WdpOiDT-cs?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -179,7 +179,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_PROJETOSELETRICOS" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1M8aE2-q_RoXws2CtzQJk2YloawNyYGiS?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
