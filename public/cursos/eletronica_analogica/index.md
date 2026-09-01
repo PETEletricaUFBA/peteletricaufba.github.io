@@ -6,6 +6,8 @@ cover: images/analogica.png
 authors: 
   - manuellaSoares
   - marcoAntonio
+  - gabrielazevedo
+  - raulsantos
   
 type: "featured"
 ---
