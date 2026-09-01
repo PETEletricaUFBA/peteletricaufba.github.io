@@ -71,24 +71,6 @@
             }
         ]
     },
-    "caiomazza": {
-        "name": "Caio Mazza",
-        "active": true,
-        "image": "/images/team/caiomazza.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.1",
-            "joinPET": "2025",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:caio.mpmazza@gmail.com"
-            }
-        ]
-    },
     "carlacristina": {
         "name": "Carla Cristina",
         "active": true,
@@ -140,24 +122,6 @@
             {
                 "name": "email",
                 "link": "mailto:alannasilvafaculdade@gmail.com"
-            }
-        ]
-    },
-    "gabrielazevedo": {
-        "name": "Gabriel Araújo",
-        "active": true,
-        "image": "/images/team/gabrielazevedo.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2023.1",       
-            "joinPET": "2025",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:gabrieldeazevedoarauj0@gmail.com"
             }
         ]
     },
@@ -233,24 +197,6 @@
             }
         ]
     },
-    "manuellaSoares": {
-        "name": "Manuella Lima Soares",
-        "active": true,
-        "image": "/images/team/manuellaSoares.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2022.2",
-            "joinPET": "2023",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:manuellals2004@gmail.com"
-            }
-        ]
-    },
     "nataliasantos": {
         "name": "Natália Santos",
         "active": true,
@@ -287,24 +233,6 @@
             }
         ]
     },
-    "raulsantos": {
-        "name": "Raul Santos",
-        "active": true,
-        "image": "/images/team/raulsantos.jpg",
-        "bio": null,
-        "signature": null,
-        "dates": {
-            "UFBA": "2024.1",       
-            "joinPET": "2025",
-            "egressPET": null
-        },
-        "social": [
-            {
-                "name": "email",
-                "link": "mailto:raul.js.fla@gmail.com"
-            }
-        ]
-    },
     "maiconDeivid": {
         "name": "Maicon Deivid Pereira",
         "active": true,
@@ -324,6 +252,78 @@
             {
                 "name": "CV",
                 "link": "http://lattes.cnpq.br/2479925820855121"
+            }
+        ]
+    },
+     "raulsantos": {
+        "name": "Raul Santos",
+        "active": false,
+        "image": "/images/team/raulsantos.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2024.1",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:raul.js.fla@gmail.com"
+            }
+        ]
+    },
+    "caiomazza": {
+        "name": "Caio Mazza",
+        "active": false,
+        "image": "/images/team/caiomazza.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.1",
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:caio.mpmazza@gmail.com"
+            }
+        ]
+    },
+    "gabrielazevedo": {
+        "name": "Gabriel Araújo",
+        "active": false,
+        "image": "/images/team/gabrielazevedo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2023.1",       
+            "joinPET": "2025",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:gabrieldeazevedoarauj0@gmail.com"
+            }
+        ]
+    },
+    "manuellaSoares": {
+        "name": "Manuella Lima Soares",
+        "active": false,
+        "image": "/images/team/manuellaSoares.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2022.2",
+            "joinPET": "2023",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:manuellals2004@gmail.com"
             }
         ]
     },
