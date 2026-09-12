@@ -11,6 +11,7 @@ const Prosel = () => {
             <Title />
             <About />
             <Links />
+            <Resultados />
             <Calendar />
         </Layout>
     );
