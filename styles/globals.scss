@@ -8,6 +8,7 @@ $border-color: #ECECEC;
 $black: #000;
 $white: #fff;
 $light: #d1dcff;
+
 // Font Variables
 $primary-font: 'Lato',
 sans-serif;
@@ -20,18 +21,99 @@ $card-height: 100%;
 
 @import "/node_modules/bootstrap/scss/bootstrap";
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-@import 'mixins';
-
-@import 'typography';
-
-@import 'buttons';
-
-@import 'common';
-
-@import 'templates/navigation.scss';
-
-@import 'templates/main.scss';
-
-@import 'custom';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+ 
+@import 'mixins'; 
+ 
+@import 'typography'; 
+ 
+@import 'buttons'; 
+ 
+@import 'common'; 
+ 
+@import 'templates/navigation.scss'; 
+ 
+@import 'templates/main.scss'; 
+ 
+@import 'custom'; 
+ 
+// ================================ 
+// Manual do Calouro - Abas 
+// ================================ 
+ 
+.manual-tabs { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  margin: 40px 0 30px; 
+} 
+ 
+.manual-tab { 
+  padding: 10px 18px; 
+  border: 1px solid $primary-color; 
+  border-radius: 8px; 
+  background: $primary-color; 
+  color: $white; 
+  cursor: pointer; 
+  font-family: $primary-font; 
+  font-size: 15px; 
+  transition: all 0.2s ease; 
+} 
+ 
+.manual-tab:hover { 
+  background: #0030a8;
+  border-color: #0030a8;
+  transform: translateY(-2px); 
+} 
+ 
+.manual-tab.active { 
+  background: #000f4d; 
+  color: $white; 
+  border-color: #000f4d; 
+} 
+ 
+.manual-content { 
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 30px; 
+  border-radius: 12px; 
+} 
+ 
+.manual-content-header { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 15px; 
+  margin-bottom: 30px; 
+  text-align: center; 
+} 
+ 
+.manual-content-header h2 { 
+  margin: 0; 
+} 
+ 
+.manual-content-body { 
+  text-align: left; 
+} 
+ 
+@media (max-width: 768px) { 
+  .manual-tabs { 
+    justify-content: flex-start; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    padding-bottom: 10px; 
+  } 
+ 
+  .manual-tab { 
+    white-space: nowrap; 
+  } 
+ 
+  .manual-content { 
+    padding: 20px; 
+  } 
+ 
+  .manual-content-header { 
+    flex-direction: column; 
+  }
+}

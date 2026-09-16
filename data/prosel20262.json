@@ -55,14 +55,12 @@
     ],
     "results": [
         {
-            
             "stage": "Inscrições Homologadas",
-            "link": "/docs/prosel/PS_20262_inscricoes_homologadas.pdf"
-        },
-        {
-            
-            "stage": "Resultado Final",
-            "link": "/docs/prosel/PS_20262_resultado_final.pdf"
+            "link": "/docs/prosel/PS_20262_inscricoes_homologadas.pdf",
+
+
+             "comentário": "adicionar abaixo com outro colchetes o stage com (Resultado Final) e link com (/docs/prosel/PS_20262_resultado_final.pdf)"
+
         }
     ]
     
