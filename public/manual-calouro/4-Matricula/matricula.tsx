@@ -15,20 +15,6 @@ export default function AbasMatricula() {
   return (
     <div style={{ color: "#000" }}>
 
-      {/* Título */}
-      <div style={{ textAlign: "center", marginTop: 20 }}>
-        <p
-          style={{
-            fontSize: 32,
-            fontWeight: "bold",
-            fontStyle: "italic",
-            color: "#000",
-          }}
-        >
-          Matrícula
-        </p>
-      </div>
-
       {/* Texto inicial */}
       <div
         style={{
