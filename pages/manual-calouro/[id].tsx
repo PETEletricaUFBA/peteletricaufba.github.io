@@ -7,8 +7,18 @@ import Image from '../../lib/Image';
 import MembersData from '../../data/members.json';
 import NomMembersData from '../../data/nom-members.json';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
-import AbasMaterias from '../../public/manual-calouro/1-Disciplinas/resto';
 import AbasMatricula from '../../public/manual-calouro/4-Matricula/matricula';
+import AbasUFBA from '../../public/manual-calouro/1-Ufba/Ufba';
+import AbasBUZUFBA from '../../public/manual-calouro/3-Buzufba/Buzufba';
+import AbasBibliotecas from '../../public/manual-calouro/5-Bibliotecas/Bibliotecas';
+import AbasRU from '../../public/manual-calouro/6-Ru/Ru';
+import AbasAssistencia from '../../public/manual-calouro/7-Assistencia/Assistencia';
+import AbasRepresentacao from '../../public/manual-calouro/8-Representacao/Representacao';
+import AbasOrgaos from '../../public/manual-calouro/9-Orgaos/Orgaos';
+import AbasAtividades from '../../public/manual-calouro/10-Atividades/Atividades';
+import AbasIntercambio from '../../public/manual-calouro/11-Intercambio/Intercambio';
+import AbasProReitorias from '../../public/manual-calouro/12-Pro-Reitoria/Pro-Reitoria';
+import AbasCurso from '../../public/manual-calouro/2-Curso/Curso';
 
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
@@ -64,8 +74,18 @@ export default function Post({ postData }: Props) {
           <MDXRemote
           {...postData.mdxSource}
           components={{
-            AbasMaterias,
             AbasMatricula,
+            AbasUFBA,
+            AbasBUZUFBA,
+            AbasBibliotecas,
+            AbasRU,
+            AbasAssistencia,
+            AbasRepresentacao,
+            AbasOrgaos,
+            AbasAtividades,
+            AbasIntercambio,
+            AbasProReitorias,
+            AbasCurso,
           }}
 />
 
