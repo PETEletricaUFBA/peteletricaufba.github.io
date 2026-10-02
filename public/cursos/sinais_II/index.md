@@ -5,6 +5,7 @@ date: "2026-06-08"
 cover: images/sinaisdois.png
 authors:
   - henriqueAzoubel
+  - joaolucasrochatrindade
 
 type: "featured"
 ---
