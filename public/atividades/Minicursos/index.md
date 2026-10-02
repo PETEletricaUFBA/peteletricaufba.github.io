@@ -81,7 +81,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="https://peteletricaufba.github.io/atividades/LINK_DO_DRIVE_ARDUINO" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1B-6diOtEc-iUpkK1vbPT4aPU7Oy3Xyj4?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -91,7 +91,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Apresentação dos conceitos básicos de eletrônica e programação embarcada por meio do desenvolvimento de projetos utilizando a plataforma Arduino.
+  Introdução à programação e prototipagem com Arduino, abordando conceitos fundamentais como variáveis, estruturas condicionais, funções, pinos digitais, comunicação serial e utilização de bibliotecas. De forma prática, os participantes desenvolveram um sensor de proximidade com sensor ultrassônico, LEDs e buzzer, explorando a integração entre programação e eletrônica para interpretar dados de sensores e controlar componentes de um circuito.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -111,7 +111,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_ARDUINO" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1Cpzkl0JySal9diVTcfiuTh6ZUM2p7Tb7?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -121,7 +121,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Capacitação voltada à produção e edição de conteúdos audiovisuais utilizando as ferramentas disponíveis na plataforma Canva.
+  Capacitação em edição de vídeos utilizando o Canva, abordando ferramentas para cortes, aplicação de efeitos e transições, criação de capas e personalização dos conteúdos para uma produção mais dinâmica e atrativa.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -132,7 +132,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_CANVA" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1iQhr6bKyMXASkQ-k_68H3Ip93xTPCuaO?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -158,7 +158,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_MATLAB" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1cuAtQylw1TIsiKGC3wBV-9WdpOiDT-cs?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>
@@ -168,7 +168,7 @@ status: "ON"
 </h3>
 
 <p style="color: #555; text-align: justify; margin-bottom: 20px;">
-  Fundamentos da elaboração de projetos elétricos residenciais e comerciais com auxílio de softwares utilizados na área.
+  Introdução à elaboração de projetos elétricos residenciais e comerciais, abordando conceitos básicos de instalações elétricas, representação em planta baixa e fundamentos das normas da área. O minicurso também apresenta a utilização do AutoCAD para elaboração de projetos e ferramentas para dimensionamento de cabos e disjuntores, balanceamento de fases e análise de quadros de distribuição.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -179,7 +179,7 @@ status: "ON"
 </div>
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 30px;">
-  <a href="LINK_DO_DRIVE_PROJETOSELETRICOS" target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
+  <a href=https://drive.google.com/drive/folders/1M8aE2-q_RoXws2CtzQJk2YloawNyYGiS?usp=sharing target="_blank" rel="noopener noreferrer" style="display: inline-block; background-color: #001D7E; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 500;">
      📂 Material de Apoio
   </a>
 </div>

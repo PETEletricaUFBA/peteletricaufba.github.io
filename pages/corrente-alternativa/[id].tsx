@@ -10,7 +10,9 @@ import NomMembersData from '../../data/nom-members.json';
 const Members: any = MembersData;
 const NomMembers: any = NomMembersData;
 
-export default function Post({ postData }: {
+export default function Post({
+    postData,
+}: {
     postData: {
         id: string;
         contentHtml: string;
@@ -19,7 +21,7 @@ export default function Post({ postData }: {
         title: string;
         date: string;
         authors: Array<string>;
-    }
+    };
 }): JSX.Element {
     return (
         <Layout>
@@ -28,14 +30,13 @@ export default function Post({ postData }: {
             </Head>
 
             <Content postData={postData} />
-
         </Layout>
-
     );
 }
 
-
-function Content({ postData }: {
+function Content({
+    postData,
+}: {
     postData: {
         id: string;
         contentHtml: string;
@@ -44,29 +45,76 @@ function Content({ postData }: {
         title: string;
         date: string;
         authors: Array<string>;
-    }
+    };
 }) {
     return (
         <div className="container post">
-            <div className='col-lg-8 mx-auto'>
+            <div className="col-lg-8 mx-auto">
+
+                {/* Título */}
                 <div className="title my-5 text-center">
                     <h1>{postData.title}</h1>
-                    <p className='text-end fw-lighter'><Date dateString={postData.date} /></p>
-                </div>
-                <div className="img-fluid mb-5 overflow-hidden rounded">
-                    <Image src={postData.image} alt={postData.title} layout='responsive' height="100%" width="100%" objectFit="cover" />
+                    <p className="text-end fw-lighter">
+                        <Date dateString={postData.date} />
+                    </p>
                 </div>
 
+                {/* Imagem de capa */}
+                <div className="img-fluid mb-5 overflow-hidden rounded">
+                    <Image
+                        src={postData.image}
+                        alt={postData.title}
+                        layout="responsive"
+                        width="100%"
+                        height="100%"
+                        objectFit="cover"
+                    />
+                </div>
+
+                {/* Conteúdo */}
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
 
-                {postData.authors.map((author, index) => {
-                    if (Members.hasOwnProperty(author) || NomMembers.hasOwnProperty(author)) {
-                        return (
-                            <BlogSignature key={index.toString()} author={Members.hasOwnProperty(author) ? Members[author] : NomMembers[author]} index={index} />
-                        )
-                    }
-                })}
-                {/* TODO: Implementar plugin de comentarios */}
+                {/* Autores */}
+                <div className="title my-5 text-center">
+                    <h3>{postData.authors.length > 1 ? "Autores" : "Autor"}</h3>
+                    <hr />
+                </div>
+
+                <div
+                    style={{
+                        display: "grid",
+                        gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+                        gap: "30px",
+                        justifyItems: "center",
+                        alignItems: "start",
+                        maxWidth: "900px",
+                        marginBottom: "100px",
+                    }}
+                >
+                    {postData.authors.map((author, index) => {
+                        if (
+                            Members.hasOwnProperty(author) ||
+                            NomMembers.hasOwnProperty(author)
+                        ) {
+                            return (
+                                <BlogSignature
+                                    key={index.toString()}
+                                    author={
+                                        Members.hasOwnProperty(author)
+                                            ? Members[author]
+                                            : NomMembers[author]
+                                    }
+                                    index={index}
+                                />
+                            );
+                        }
+
+                        return null;
+                    })}
+                </div>
+
+                {/* TODO: Implementar plugin de comentários */}
+
             </div>
         </div>
     );
@@ -74,18 +122,23 @@ function Content({ postData }: {
 
 export async function getStaticPaths() {
     const paths = getAllPostIds();
+
     return {
         paths,
         fallback: false,
     };
 }
 
-export async function getStaticProps({ params }: { params: { id: string } }) {
+export async function getStaticProps({
+    params,
+}: {
+    params: { id: string };
+}) {
     const postData = await getPostData(params.id);
+
     return {
         props: {
             postData,
         },
     };
 }
-
