@@ -18,7 +18,7 @@
         ]
     },
     "alissoncaua": {
-        "name": "Alisson Cauã",
+        "name": "Alisson Cauã Regis",
         "active": true,
         "image": "/images/team/alissoncaua.jpg",
         "bio": null,
@@ -32,6 +32,24 @@
             {
                 "name": "email",
                 "link": "mailto:alisson.cauav@gmail.com"
+            }
+        ]
+    },
+    "andrevitor": {
+        "name": "André Vitor Hamburgo",
+        "active": true,
+        "image": "/images/team/andrevitor.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2025.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:andrehamburgo16@gmail.com"
             }
         ]
     },
@@ -49,7 +67,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:arturbdfarias@gmail.com"
             }
         ]
     },
@@ -72,7 +90,7 @@
         ]
     },
     "carlacristina": {
-        "name": "Carla Cristina",
+        "name": "Carla Cristina Neves",
         "active": true,
         "image": "/images/team/carlacristina.jpg",
         "bio": null,
@@ -85,7 +103,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:vieircarl@gmail.com"
             }
         ]
     },
@@ -103,7 +121,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:enzomascarenhas1@gmail.com"
             }
         ]
     },
@@ -121,7 +139,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:frredes.altawatt@gmail.com"
             }
         ]
     },
@@ -139,7 +157,43 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:gabriel.costa_39@hotmail.com"
+            }
+        ]
+    },
+    "gustavoalmeida": {
+        "name": "Gustavo Almeida",
+        "active": true,
+        "image": "/images/team/gustavoalmeida.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2025.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:moura.gustaa@gmail.com"
+            }
+        ]
+    },
+    "ilanaalfano": {
+        "name": "Ilana Alfano",
+        "active": true,
+        "image": "/images/team/ilanaalfano.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2025.2",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:sem.com"
             }
         ]
     },
@@ -157,7 +211,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:jlrt.21.eng@gmail.com"
             }
         ]
     },
@@ -175,7 +229,25 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:alannasilvafaculdade@gmail.com"
+                "link": "mailto:joaocruzaraujo33@gmail.com"
+            }
+        ]
+    },
+    "juliamoraes": {
+        "name": "Julia Moraes",
+        "active": true,
+        "image": "/images/team/juliamoraes.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2026.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:juliafernandezmoraesj@gmail.com"
             }
         ]
     },
@@ -233,11 +305,29 @@
             }
         ]
     },
+    "pedrogustavo": {
+        "name": "Pedro Gustavo Maira",
+        "active": true,
+        "image": "/images/team/pedrogustavo.jpg",
+        "bio": null,
+        "signature": null,
+        "dates": {
+            "UFBA": "2026.1",       
+            "joinPET": "2026",
+            "egressPET": null
+        },
+        "social": [
+            {
+                "name": "email",
+                "link": "mailto:pedrogustavobello@gmail.com"
+            }
+        ]
+    },
     "maiconDeivid": {
         "name": "Maicon Deivid Pereira",
         "active": true,
         "image": "/images/team/maiconDeivid.jpg",
-        "bio": "Tutor do grupo PET-Elétrica, possui graduação (2006), mestrado (2009) e doutorado (2017) em Engenharia Elétrica pela Universidade Federal de Santa Catarina - UFSC. Trabalhou no Centro de Tecnologia da Informação Renato Archer como projetista de circuitos integrados analógicos e de radiofrequência entre 2009 e 2012. Desde 2018 é Professor Adjunto no Departamento de Engenharia Elétrica e de Computação da Universidade Federal da Bahia, contribuindo com pesquisas no Laboratório de Concepção de Circuitos Integrados. Tem experiência com circuitos eletrônicos integrados analógicos, mistos e de radiofrequência, além de caracterização e modelagem de canal para sistemas de comunicação sem fio. Tem interesse em projeto e teste de arquiteturas para circuitos e sistemas de comunicação de baixo consumo, em métodos alternativos de comunicação para redes sem fio e em técnicas de caracterização e modelagem de canal.",
+        "bio": null,
         "signature": null,
         "dates": {
             "UFBA": 2018,
