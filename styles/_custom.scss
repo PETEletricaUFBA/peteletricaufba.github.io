@@ -354,4 +354,11 @@ div.scrollmenu a {
     text-justify: inter-word;
     word-spacing: -1 px;
   }
+
+  .bio-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  }
 }

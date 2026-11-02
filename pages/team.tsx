@@ -105,14 +105,14 @@ const Actives = () => (
                       </h4>
                     </div>
 
-                    {/* Corpo intermediário: Biografia com scroll interno controlado */}
-                    <div className="px-3 border-top pt-2 d-flex flex-column flex-grow-1 overflow-hidden">
-                      <p className="text-dark text-start mb-2 flex-shrink-0">
-                        <strong>Biografia / Sobre:</strong>
-                      </p>
+                    {/* Biografia */}
+                    <div className="px-3 border-top pt-3 d-flex flex-column flex-grow-1 overflow-hidden">
+                      <h6 className="bio-text text-dark text-start mb-2 flex-shrink-0 fw-bold">
+                        Biografia / Sobre:
+                      </h6>
                       
-                      <div className="overflow-auto text-start flex-grow-1 pb-3">
-                        <p className="text-muted small m-0 text-justify">
+                      <div className="overflow-auto flex-grow-1 pb-3">
+                        <p className="text-dark text-center mb-0 bio-text">
                           {item[1].bio || "Membro atuante do PET Elétrica UFBA."}
                         </p>
                       </div>

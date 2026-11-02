@@ -217,7 +217,9 @@ const Depoimentos = () => {
               key={index}
             >
               {/* <!-- TODO: Acrescentar foto das pessoas --> */}
-              <q>{item.content}</q>
+              <q>
+                <strong>{item.content.replace(/\*/g, "")}</strong>
+              </q>
               <p className="author">- {item.name}</p>
             </div>
           ))}

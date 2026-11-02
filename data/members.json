@@ -3,7 +3,7 @@
         "name": "Alanna Silva",
         "active": true,
         "image": "/images/team/alannasilva.jpg",
-        "bio": "Íris é uma figura importante na mitologia grega, conhecida como a deusa do arco-íris e mensageira dos deuses, atuando como intermediária entre os deuses do Olimpo e os seres humanos. Além de suas funções como mensageira, Íris também é associada à comunicação e à ligação, tanto no sentido literal de transmitir mensagens quanto no sentido simbólico de conectar diferentes mundos ou estados de ser. Íris é uma figura importante na mitologia grega, conhecida como a deusa do arco-íris e mensageira dos deuses, atuando como intermediária entre os deuses do Olimpo e os seres humanos. Além de suas funções como mensageira, Íris também é associada à comunicação e à ligação, tanto no sentido literal de transmitir mensagens quanto no sentido simbólico de conectar diferentes mundos ou estados de ser.",
+        "bio": "\"A verdade é que eu sou a Mulher de Ferro!\"",
         "signature": null,
         "dates": {
             "UFBA": "2024.1",       
@@ -57,7 +57,7 @@
         "name": "Artur Farias",
         "active": true,
         "image": "/images/team/arturfarias.jpg",
-        "bio": null,
+        "bio": "\"Adoro viajar, eletrônica e sou fã nº1 do Bob Esponja\"",
         "signature": null,
         "dates": {
             "UFBA": "2024.1",       
@@ -93,7 +93,7 @@
         "name": "Carla Cristina Neves",
         "active": true,
         "image": "/images/team/carlacristina.jpg",
-        "bio": null,
+        "bio": "\"Gosto de patinar, ouvir música e sou apaixonada por animais! Pretendo seguir a área de Sistemas Elétricos de Potência.\"",
         "signature": null,
         "dates": {
             "UFBA": "2024.1",       
@@ -193,7 +193,7 @@
         "social": [
             {
                 "name": "email",
-                "link": "mailto:sem.com"
+                "link": "mailto:estudosilanaas@gmail.com"
             }
         ]
     },
@@ -327,7 +327,7 @@
         "name": "Maicon Deivid Pereira",
         "active": true,
         "image": "/images/team/maiconDeivid.jpg",
-        "bio": null,
+        "bio": "Professor tutor do PET Elétrica UFBA.",
         "signature": null,
         "dates": {
             "UFBA": 2018,
